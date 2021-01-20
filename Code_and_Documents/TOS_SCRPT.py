@@ -2,28 +2,28 @@ from time import sleep  #importing delay library
 import RPi.GPIO as gpio
 
 gpio.setmode(gpio.BCM)          #Setting GPIO Mode
-DIR1 = 13                        # Direction GPIO Pin
-STEP1 = 12                       # Step GPIO Pin
+DIR1 = 3                        # Direction GPIO Pin
+STEP1 = 5                       # Step GPIO Pin
 gpio.setup(DIR1, gpio.OUT)
 gpio.setup(STEP1, gpio.OUT)
-DIR2 =  5                        # Direction GPIO Pin
-STEP2=  6                        # Step GPIO Pin
+DIR2 =  7                        # Direction GPIO Pin
+STEP2 =  8                       # Step GPIO Pin
 gpio.setup(DIR2, gpio.OUT)
 gpio.setup(STEP2, gpio.OUT)
-DIR3=  9                        # Direction GPIO Pin
-STEP3 =  11                       # Step GPIO Pin
+DIR3 =  10                       # Direction GPIO Pin
+STEP3 = 19                       # Step GPIO Pin
 gpio.setup(DIR3, gpio.OUT)
 gpio.setup(STEP3, gpio.OUT)
-DIR4 =  10                        # Direction GPIO Pin
-STEP4 =  4                      # Step GPIO Pin
+DIR4 = 21                        # Direction GPIO Pin
+STEP4 = 23                       # Step GPIO Pin
 gpio.setup(DIR4, gpio.OUT)
 gpio.setup(STEP4, gpio.OUT)
-DIR5 =  14                       # Direction GPIO Pin
-STEP5 = 15                       # Step GPIO Pin
+DIR5 =  29                       # Direction GPIO Pin
+STEP5 = 32                       # Step GPIO Pin
 gpio.setup(DIR5, gpio.OUT)
 gpio.setup(STEP5, gpio.OUT)
-DIR6 =  3                        # Direction GPIO Pin
-STEP6 = 2                        # Step GPIO Pin
+DIR6 =  31                        # Direction GPIO Pin
+STEP6 = 33                        # Step GPIO Pin
 gpio.setup(DIR6, gpio.OUT)
 gpio.setup(STEP6, gpio.OUT)
 
