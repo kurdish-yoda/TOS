@@ -1,0 +1,2073 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A1
+U 1 1 5D24A042
+P 1675 1075
+F 0 "A1" H 1775 1375 50  0000 C CNN
+F 1 "Pololu" H 1850 1300 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 1950 325 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 1775 775 50  0001 C CNN
+	1    1675 1075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G1_Con1
+U 1 1 5D24DB8B
+P 1675 1800
+F 0 "G1_Con1" V 1475 1225 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 1613 1948 50  0001 L CNN
+F 2 "Connectors_JST:JST_EH_B04B-EH-A_04x2.50mm_Straight" H 1675 1800 50  0001 C CNN
+F 3 "~" H 1675 1800 50  0001 C CNN
+	1    1675 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	875  1275 875  1075
+Wire Wire Line
+	1475 1575 1475 1600
+Wire Wire Line
+	1575 1575 1575 1600
+Wire Wire Line
+	1675 1600 1675 1575
+Wire Wire Line
+	1775 1575 1775 1600
+Text GLabel 2375 1050 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	2375 1050 2375 1075
+Text GLabel 2375 1250 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	2375 1275 2375 1250
+$Comp
+L Device:CP1_Small C1
+U 1 1 5D24DE6C
+P 2375 1425
+F 0 "C1" H 2175 1325 50  0000 L CNN
+F 1 "100uf" H 2025 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 2375 1425 50  0001 C CNN
+F 3 "~" H 2375 1425 50  0001 C CNN
+	1    2375 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 1325 2375 1275
+Connection ~ 2375 1275
+$Comp
+L power:GND #e0101
+U 1 1 5D24E0D2
+P 2375 1550
+F 0 "#e0101" H 2375 1300 50  0001 C CNN
+F 1 "GND" H 2463 1513 50  0001 L CNN
+F 2 "" H 2375 1550 50  0001 C CNN
+F 3 "" H 2375 1550 50  0001 C CNN
+	1    2375 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 1525 2375 1550
+$Comp
+L power:GND #e0102
+U 1 1 5D24E268
+P 875 1300
+F 0 "#e0102" H 875 1050 50  0001 C CNN
+F 1 "GND" H 963 1263 50  0001 L CNN
+F 2 "" H 875 1300 50  0001 C CNN
+F 3 "" H 875 1300 50  0001 C CNN
+	1    875  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	875  1300 875  1275
+Connection ~ 875  1275
+NoConn ~ 1175 675 
+NoConn ~ 1275 675 
+NoConn ~ 1375 675 
+NoConn ~ 1775 675 
+Wire Wire Line
+	1975 675  1975 650 
+Wire Wire Line
+	1975 650  2075 650 
+Wire Wire Line
+	2075 650  2075 675 
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A2
+U 1 1 5D24ED30
+P 3275 1075
+F 0 "A2" H 3375 1375 50  0000 C CNN
+F 1 "Pololu" H 3450 1300 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 3550 325 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 3375 775 50  0001 C CNN
+	1    3275 1075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G1_Con2
+U 1 1 5D24ED37
+P 3275 1800
+F 0 "G1_Con2" V 3075 1225 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 3213 1948 50  0001 L CNN
+F 2 "Connectors_JST:JST_EH_B04B-EH-A_04x2.50mm_Straight" H 3275 1800 50  0001 C CNN
+F 3 "~" H 3275 1800 50  0001 C CNN
+	1    3275 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2475 1275 2475 1075
+Wire Wire Line
+	3075 1575 3075 1600
+Wire Wire Line
+	3175 1575 3175 1600
+Wire Wire Line
+	3275 1600 3275 1575
+Wire Wire Line
+	3375 1575 3375 1600
+Text GLabel 3975 1050 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	3975 1050 3975 1075
+Text GLabel 3975 1250 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	3975 1275 3975 1250
+$Comp
+L Device:CP1_Small C2
+U 1 1 5D24ED47
+P 3975 1425
+F 0 "C2" H 3775 1325 50  0000 L CNN
+F 1 "100uf" H 3625 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 3975 1425 50  0001 C CNN
+F 3 "~" H 3975 1425 50  0001 C CNN
+	1    3975 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 1325 3975 1275
+Connection ~ 3975 1275
+$Comp
+L power:GND #e0103
+U 1 1 5D24ED50
+P 3975 1550
+F 0 "#e0103" H 3975 1300 50  0001 C CNN
+F 1 "GND" H 4063 1513 50  0001 L CNN
+F 2 "" H 3975 1550 50  0001 C CNN
+F 3 "" H 3975 1550 50  0001 C CNN
+	1    3975 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 1525 3975 1550
+$Comp
+L power:GND #e0104
+U 1 1 5D24ED57
+P 2475 1300
+F 0 "#e0104" H 2475 1050 50  0001 C CNN
+F 1 "GND" H 2563 1263 50  0001 L CNN
+F 2 "" H 2475 1300 50  0001 C CNN
+F 3 "" H 2475 1300 50  0001 C CNN
+	1    2475 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 1300 2475 1275
+Connection ~ 2475 1275
+NoConn ~ 2775 675 
+NoConn ~ 2875 675 
+NoConn ~ 2975 675 
+NoConn ~ 3375 675 
+Wire Wire Line
+	3575 675  3575 650 
+Wire Wire Line
+	3575 650  3675 650 
+Wire Wire Line
+	3675 650  3675 675 
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A3
+U 1 1 5D24FC7F
+P 4875 1075
+F 0 "A3" H 4975 1375 50  0000 C CNN
+F 1 "Pololu" H 5050 1300 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 5150 325 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 4975 775 50  0001 C CNN
+	1    4875 1075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G1_Con3
+U 1 1 5D24FC86
+P 4875 1800
+F 0 "G1_Con3" V 4675 1225 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 4813 1948 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 4875 1800 50  0001 C CNN
+F 3 "~" H 4875 1800 50  0001 C CNN
+	1    4875 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4075 1275 4075 1075
+Wire Wire Line
+	4675 1575 4675 1600
+Wire Wire Line
+	4775 1575 4775 1600
+Wire Wire Line
+	4875 1600 4875 1575
+Wire Wire Line
+	4975 1575 4975 1600
+Text GLabel 5575 1050 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	5575 1050 5575 1075
+Text GLabel 5575 1250 1    28   Input ~ 0
+VMot
+$Comp
+L Device:CP1_Small C3
+U 1 1 5D24FC96
+P 5575 1425
+F 0 "C3" H 5375 1325 50  0000 L CNN
+F 1 "100uf" H 5225 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 5575 1425 50  0001 C CNN
+F 3 "~" H 5575 1425 50  0001 C CNN
+	1    5575 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #e0105
+U 1 1 5D24FC9F
+P 5575 1550
+F 0 "#e0105" H 5575 1300 50  0001 C CNN
+F 1 "GND" H 5663 1513 50  0001 L CNN
+F 2 "" H 5575 1550 50  0001 C CNN
+F 3 "" H 5575 1550 50  0001 C CNN
+	1    5575 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 1525 5575 1550
+$Comp
+L power:GND #e0106
+U 1 1 5D24FCA6
+P 4075 1300
+F 0 "#e0106" H 4075 1050 50  0001 C CNN
+F 1 "GND" H 4163 1263 50  0001 L CNN
+F 2 "" H 4075 1300 50  0001 C CNN
+F 3 "" H 4075 1300 50  0001 C CNN
+	1    4075 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4075 1300 4075 1275
+Connection ~ 4075 1275
+NoConn ~ 4375 675 
+NoConn ~ 4475 675 
+NoConn ~ 4575 675 
+NoConn ~ 4975 675 
+Wire Wire Line
+	5175 675  5175 650 
+Wire Wire Line
+	5175 650  5275 650 
+Wire Wire Line
+	5275 650  5275 675 
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A4
+U 1 1 5D24FCB5
+P 6475 1075
+F 0 "A4" H 6575 1375 50  0000 C CNN
+F 1 "Pololu" H 6650 1300 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 6750 325 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 6575 775 50  0001 C CNN
+	1    6475 1075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G1_Con4
+U 1 1 5D24FCBC
+P 6475 1800
+F 0 "G1_Con4" V 6275 1225 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 6413 1948 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 6475 1800 50  0001 C CNN
+F 3 "~" H 6475 1800 50  0001 C CNN
+	1    6475 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5675 1275 5675 1075
+Wire Wire Line
+	6275 1575 6275 1600
+Wire Wire Line
+	6375 1575 6375 1600
+Wire Wire Line
+	6475 1600 6475 1575
+Wire Wire Line
+	6575 1575 6575 1600
+Text GLabel 7175 1050 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	7175 1050 7175 1075
+Text GLabel 7175 1250 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	7175 1275 7175 1250
+$Comp
+L Device:CP1_Small C4
+U 1 1 5D24FCCC
+P 7175 1425
+F 0 "C4" H 6975 1325 50  0000 L CNN
+F 1 "100uf" H 6825 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 7175 1425 50  0001 C CNN
+F 3 "~" H 7175 1425 50  0001 C CNN
+	1    7175 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7175 1325 7175 1275
+Connection ~ 7175 1275
+$Comp
+L power:GND #e0107
+U 1 1 5D24FCD5
+P 7175 1550
+F 0 "#e0107" H 7175 1300 50  0001 C CNN
+F 1 "GND" H 7263 1513 50  0001 L CNN
+F 2 "" H 7175 1550 50  0001 C CNN
+F 3 "" H 7175 1550 50  0001 C CNN
+	1    7175 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7175 1525 7175 1550
+$Comp
+L power:GND #e0108
+U 1 1 5D24FCDC
+P 5675 1300
+F 0 "#e0108" H 5675 1050 50  0001 C CNN
+F 1 "GND" H 5763 1263 50  0001 L CNN
+F 2 "" H 5675 1300 50  0001 C CNN
+F 3 "" H 5675 1300 50  0001 C CNN
+	1    5675 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5675 1300 5675 1275
+Connection ~ 5675 1275
+NoConn ~ 5975 675 
+NoConn ~ 6075 675 
+NoConn ~ 6175 675 
+NoConn ~ 6575 675 
+Wire Wire Line
+	6775 675  6775 650 
+Wire Wire Line
+	6775 650  6875 650 
+Wire Wire Line
+	6875 650  6875 675 
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A5
+U 1 1 5D250EB1
+P 8100 1075
+F 0 "A5" H 8200 1375 50  0000 C CNN
+F 1 "Pololu" H 8275 1300 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 8375 325 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 8200 775 50  0001 C CNN
+	1    8100 1075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G1_Con5
+U 1 1 5D250EB8
+P 8100 1800
+F 0 "G1_Con5" V 7900 1225 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 8038 1948 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 8100 1800 50  0001 C CNN
+F 3 "~" H 8100 1800 50  0001 C CNN
+	1    8100 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 1275 7300 1075
+Wire Wire Line
+	7900 1575 7900 1600
+Wire Wire Line
+	8000 1575 8000 1600
+Wire Wire Line
+	8100 1600 8100 1575
+Wire Wire Line
+	8200 1575 8200 1600
+Text GLabel 8800 1050 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	8800 1050 8800 1075
+Text GLabel 8800 1250 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	8800 1275 8800 1250
+$Comp
+L Device:CP1_Small C5
+U 1 1 5D250EC8
+P 8800 1425
+F 0 "C5" H 8600 1325 50  0000 L CNN
+F 1 "100uf" H 8450 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 8800 1425 50  0001 C CNN
+F 3 "~" H 8800 1425 50  0001 C CNN
+	1    8800 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1325 8800 1275
+Connection ~ 8800 1275
+$Comp
+L power:GND #e0109
+U 1 1 5D250ED1
+P 8800 1550
+F 0 "#e0109" H 8800 1300 50  0001 C CNN
+F 1 "GND" H 8888 1513 50  0001 L CNN
+F 2 "" H 8800 1550 50  0001 C CNN
+F 3 "" H 8800 1550 50  0001 C CNN
+	1    8800 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1525 8800 1550
+$Comp
+L power:GND #e0110
+U 1 1 5D250ED8
+P 7300 1300
+F 0 "#e0110" H 7300 1050 50  0001 C CNN
+F 1 "GND" H 7388 1263 50  0001 L CNN
+F 2 "" H 7300 1300 50  0001 C CNN
+F 3 "" H 7300 1300 50  0001 C CNN
+	1    7300 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1300 7300 1275
+Connection ~ 7300 1275
+NoConn ~ 7600 675 
+NoConn ~ 7700 675 
+NoConn ~ 7800 675 
+NoConn ~ 8200 675 
+Wire Wire Line
+	8400 675  8400 650 
+Wire Wire Line
+	8400 650  8500 650 
+Wire Wire Line
+	8500 650  8500 675 
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A6
+U 1 1 5D250EE7
+P 9700 1075
+F 0 "A6" H 9800 1375 50  0000 C CNN
+F 1 "Pololu" H 9875 1300 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 9975 325 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 9800 775 50  0001 C CNN
+	1    9700 1075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G1_Con6
+U 1 1 5D250EEE
+P 9700 1800
+F 0 "G1_Con6" V 9500 1225 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 9638 1948 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 9700 1800 50  0001 C CNN
+F 3 "~" H 9700 1800 50  0001 C CNN
+	1    9700 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 1275 8900 1075
+Wire Wire Line
+	9500 1575 9500 1600
+Wire Wire Line
+	9600 1575 9600 1600
+Wire Wire Line
+	9700 1600 9700 1575
+Wire Wire Line
+	9800 1575 9800 1600
+Text GLabel 10425 1075 2    28   Input ~ 0
+Vdat
+Text GLabel 10400 1250 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	10400 1275 10400 1250
+$Comp
+L Device:CP1_Small C6
+U 1 1 5D250EFE
+P 10400 1425
+F 0 "C6" H 10200 1325 50  0000 L CNN
+F 1 "100uf" H 10050 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 10400 1425 50  0001 C CNN
+F 3 "~" H 10400 1425 50  0001 C CNN
+	1    10400 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 1325 10400 1275
+Connection ~ 10400 1275
+$Comp
+L power:GND #e0111
+U 1 1 5D250F07
+P 10400 1575
+F 0 "#e0111" H 10400 1325 50  0001 C CNN
+F 1 "GND" H 10488 1538 50  0001 L CNN
+F 2 "" H 10400 1575 50  0001 C CNN
+F 3 "" H 10400 1575 50  0001 C CNN
+	1    10400 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #e0112
+U 1 1 5D250F0E
+P 8900 1300
+F 0 "#e0112" H 8900 1050 50  0001 C CNN
+F 1 "GND" H 8988 1263 50  0001 L CNN
+F 2 "" H 8900 1300 50  0001 C CNN
+F 3 "" H 8900 1300 50  0001 C CNN
+	1    8900 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1300 8900 1275
+Connection ~ 8900 1275
+NoConn ~ 9200 675 
+NoConn ~ 9300 675 
+NoConn ~ 9400 675 
+NoConn ~ 9800 675 
+Wire Wire Line
+	10000 675  10000 650 
+Wire Wire Line
+	10000 650  10100 650 
+Wire Wire Line
+	10100 650  10100 675 
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A7
+U 1 1 5D255545
+P 1675 2400
+F 0 "A7" H 1775 2700 50  0000 C CNN
+F 1 "Pololu" H 1850 2625 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 1950 1650 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 1775 2100 50  0001 C CNN
+	1    1675 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G1_Con7
+U 1 1 5D25554C
+P 1675 3125
+F 0 "G1_Con7" V 1475 2550 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 1613 3273 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 1675 3125 50  0001 C CNN
+F 3 "~" H 1675 3125 50  0001 C CNN
+	1    1675 3125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	875  2600 875  2400
+Wire Wire Line
+	1475 2900 1475 2925
+Wire Wire Line
+	1575 2900 1575 2925
+Wire Wire Line
+	1675 2925 1675 2900
+Wire Wire Line
+	1775 2900 1775 2925
+Text GLabel 2425 2400 1    28   Input ~ 0
+Vdat
+Text GLabel 2375 2575 1    28   Input ~ 0
+VMot
+$Comp
+L Device:CP1_Small C7
+U 1 1 5D25555C
+P 2375 2750
+F 0 "C7" H 2175 2650 50  0000 L CNN
+F 1 "100uf" H 2025 2575 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 2375 2750 50  0001 C CNN
+F 3 "~" H 2375 2750 50  0001 C CNN
+	1    2375 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #e0113
+U 1 1 5D255565
+P 2375 2875
+F 0 "#e0113" H 2375 2625 50  0001 C CNN
+F 1 "GND" H 2463 2838 50  0001 L CNN
+F 2 "" H 2375 2875 50  0001 C CNN
+F 3 "" H 2375 2875 50  0001 C CNN
+	1    2375 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 2850 2375 2875
+$Comp
+L power:GND #e0114
+U 1 1 5D25556C
+P 875 2625
+F 0 "#e0114" H 875 2375 50  0001 C CNN
+F 1 "GND" H 963 2588 50  0001 L CNN
+F 2 "" H 875 2625 50  0001 C CNN
+F 3 "" H 875 2625 50  0001 C CNN
+	1    875  2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	875  2625 875  2600
+Connection ~ 875  2600
+NoConn ~ 1175 2000
+NoConn ~ 1275 2000
+NoConn ~ 1375 2000
+NoConn ~ 1775 2000
+Wire Wire Line
+	1975 2000 1975 1975
+Wire Wire Line
+	1975 1975 2075 1975
+Wire Wire Line
+	2075 1975 2075 2000
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A8
+U 1 1 5D25557B
+P 3275 2400
+F 0 "A8" H 3375 2700 50  0000 C CNN
+F 1 "Pololu" H 3450 2625 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 3550 1650 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 3375 2100 50  0001 C CNN
+	1    3275 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G1_Con8
+U 1 1 5D255582
+P 3275 3125
+F 0 "G1_Con8" V 3075 2550 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 3213 3273 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 3275 3125 50  0001 C CNN
+F 3 "~" H 3275 3125 50  0001 C CNN
+	1    3275 3125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2475 2600 2475 2400
+Wire Wire Line
+	3075 2900 3075 2925
+Wire Wire Line
+	3175 2900 3175 2925
+Wire Wire Line
+	3275 2925 3275 2900
+Wire Wire Line
+	3375 2900 3375 2925
+Text GLabel 3975 2375 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	3975 2375 3975 2400
+Text GLabel 3975 2575 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	3975 2600 3975 2575
+$Comp
+L Device:CP1_Small C8
+U 1 1 5D255592
+P 3975 2750
+F 0 "C8" H 3775 2650 50  0000 L CNN
+F 1 "100uf" H 3625 2575 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 3975 2750 50  0001 C CNN
+F 3 "~" H 3975 2750 50  0001 C CNN
+	1    3975 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 2650 3975 2600
+Connection ~ 3975 2600
+$Comp
+L power:GND #e0115
+U 1 1 5D25559B
+P 3975 2875
+F 0 "#e0115" H 3975 2625 50  0001 C CNN
+F 1 "GND" H 4063 2838 50  0001 L CNN
+F 2 "" H 3975 2875 50  0001 C CNN
+F 3 "" H 3975 2875 50  0001 C CNN
+	1    3975 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 2850 3975 2875
+$Comp
+L power:GND #e0116
+U 1 1 5D2555A2
+P 2475 2625
+F 0 "#e0116" H 2475 2375 50  0001 C CNN
+F 1 "GND" H 2563 2588 50  0001 L CNN
+F 2 "" H 2475 2625 50  0001 C CNN
+F 3 "" H 2475 2625 50  0001 C CNN
+	1    2475 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 2625 2475 2600
+Connection ~ 2475 2600
+NoConn ~ 2775 2000
+NoConn ~ 2875 2000
+NoConn ~ 2975 2000
+NoConn ~ 3375 2000
+Wire Wire Line
+	3575 2000 3575 1975
+Wire Wire Line
+	3575 1975 3675 1975
+Wire Wire Line
+	3675 1975 3675 2000
+Text GLabel 3275 1975 1    28   Input ~ 0
+Step1
+Text GLabel 3175 1975 1    28   Input ~ 0
+Dir1
+Wire Wire Line
+	3275 2000 3275 1975
+Wire Wire Line
+	3175 1975 3175 2000
+Text GLabel 1675 1975 1    28   Input ~ 0
+Step1
+Text GLabel 1575 1975 1    28   Input ~ 0
+Dir1
+Wire Wire Line
+	1575 2000 1575 1975
+Wire Wire Line
+	1675 1975 1675 2000
+Text GLabel 1675 650  1    28   Input ~ 0
+Step1
+Text GLabel 1575 650  1    28   Input ~ 0
+Dir1
+Wire Wire Line
+	1575 675  1575 650 
+Wire Wire Line
+	1675 650  1675 675 
+Text GLabel 3275 650  1    28   Input ~ 0
+Step1
+Text GLabel 3175 650  1    28   Input ~ 0
+Dir1
+Text GLabel 4875 650  1    28   Input ~ 0
+Step1
+Text GLabel 4775 650  1    28   Input ~ 0
+Dir1
+Text GLabel 6475 650  1    28   Input ~ 0
+Step1
+Text GLabel 6375 650  1    28   Input ~ 0
+Dir1
+Text GLabel 8100 650  1    28   Input ~ 0
+Step1
+Text GLabel 8000 650  1    28   Input ~ 0
+Dir1
+Text GLabel 9700 650  1    28   Input ~ 0
+Step1
+Text GLabel 9600 650  1    28   Input ~ 0
+Dir1
+Wire Wire Line
+	3175 650  3175 675 
+Wire Wire Line
+	3275 650  3275 675 
+Wire Wire Line
+	4875 675  4875 650 
+Wire Wire Line
+	4775 650  4775 675 
+Wire Wire Line
+	9700 675  9700 650 
+Wire Wire Line
+	9600 650  9600 675 
+Wire Wire Line
+	8000 675  8000 650 
+Wire Wire Line
+	8100 650  8100 675 
+$Comp
+L Transistor_BJT:BC141 Q1
+U 1 1 5D2D568C
+P 4550 2100
+F 0 "Q1" H 4741 2100 50  0000 L CNN
+F 1 "BC141" H 4740 2145 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 4750 2025 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 4550 2100 50  0001 L CNN
+	1    4550 2100
+	-1   0    0    1   
+$EndComp
+Text GLabel 4450 2325 2    28   Input ~ 0
+Vdat
+Wire Wire Line
+	4750 2100 4775 2100
+Text GLabel 5000 2100 2    28   Input ~ 0
+Step1En
+Text GLabel 4450 1875 2    28   Input ~ 0
+Step1
+Wire Wire Line
+	4450 1900 4450 1875
+Wire Wire Line
+	4450 2300 4450 2325
+$Comp
+L Device:R_Small R1
+U 1 1 5D2EEA8B
+P 4875 2100
+F 0 "R1" V 4800 2100 50  0000 C CNN
+F 1 "1k" V 4875 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4875 2100 50  0001 C CNN
+F 3 "~" H 4875 2100 50  0001 C CNN
+	1    4875 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4975 2100 5000 2100
+$Comp
+L Transistor_BJT:BC141 Q2
+U 1 1 5D2FBE4C
+P 4550 2625
+F 0 "Q2" H 4741 2625 50  0000 L CNN
+F 1 "BC141" H 4740 2670 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 4750 2550 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 4550 2625 50  0001 L CNN
+	1    4550 2625
+	-1   0    0    1   
+$EndComp
+Text GLabel 4450 2850 2    28   Input ~ 0
+Vdat
+Wire Wire Line
+	4750 2625 4775 2625
+Text GLabel 5000 2625 2    28   Input ~ 0
+Dir1En
+Text GLabel 4450 2400 2    28   Input ~ 0
+Dir1
+Wire Wire Line
+	4450 2425 4450 2400
+Wire Wire Line
+	4450 2825 4450 2850
+$Comp
+L Device:R_Small R2
+U 1 1 5D2FBE59
+P 4875 2625
+F 0 "R2" V 4800 2625 50  0000 C CNN
+F 1 "1k" V 4875 2625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4875 2625 50  0001 C CNN
+F 3 "~" H 4875 2625 50  0001 C CNN
+	1    4875 2625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4975 2625 5000 2625
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5D302BEB
+P 7350 2375
+F 0 "J1" H 7377 2351 50  0000 L CNN
+F 1 "SupplyIn3.3v" H 6950 2475 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 7350 2375 50  0001 C CNN
+F 3 "~" H 7350 2375 50  0001 C CNN
+	1    7350 2375
+	1    0    0    -1  
+$EndComp
+Text GLabel 7125 2375 0    28   Input ~ 0
+Vdatin
+Wire Wire Line
+	7125 2375 7150 2375
+Wire Wire Line
+	7150 2475 7125 2475
+Wire Wire Line
+	7125 2475 7125 2500
+$Comp
+L power:GND #e0117
+U 1 1 5D31E169
+P 7125 2500
+F 0 "#e0117" H 7125 2250 50  0001 C CNN
+F 1 "GND" H 7213 2463 50  0001 L CNN
+F 2 "" H 7125 2500 50  0001 C CNN
+F 3 "" H 7125 2500 50  0001 C CNN
+	1    7125 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q3
+U 1 1 5D32BC6E
+P 6225 2525
+F 0 "Q3" V 6477 2525 50  0000 C CNN
+F 1 "Q_PMOS_DGS" H 6477 2525 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 6425 2625 50  0001 C CNN
+F 3 "~" H 6225 2525 50  0001 C CNN
+	1    6225 2525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5D32C0FA
+P 6550 2525
+F 0 "R3" H 6609 2571 50  0000 L CNN
+F 1 "10k" H 6609 2480 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6550 2525 50  0001 C CNN
+F 3 "~" H 6550 2525 50  0001 C CNN
+	1    6550 2525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 2525 6425 2525
+$Comp
+L power:GND #e0118
+U 1 1 5D333192
+P 6675 2525
+F 0 "#e0118" H 6675 2275 50  0001 C CNN
+F 1 "GND" H 6763 2488 50  0001 L CNN
+F 2 "" H 6675 2525 50  0001 C CNN
+F 3 "" H 6675 2525 50  0001 C CNN
+	1    6675 2525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 2525 6675 2525
+Text GLabel 6150 2725 2    28   Input ~ 0
+Vdatin
+Wire Wire Line
+	6125 2725 6150 2725
+$Comp
+L Device:D_Zener_Small D1
+U 1 1 5D35D101
+P 6250 2300
+F 0 "D1" V 6325 2200 50  0000 L CNN
+F 1 "D_Zener_Small" H 6250 2186 50  0001 C CNN
+F 2 "Diodes_SMD:D_2114" V 6250 2300 50  0001 C CNN
+F 3 "~" V 6250 2300 50  0001 C CNN
+	1    6250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 2325 6125 2300
+Wire Wire Line
+	6125 2300 6150 2300
+Wire Wire Line
+	6350 2300 6450 2300
+Wire Wire Line
+	6450 2300 6450 2525
+Connection ~ 6450 2525
+Text GLabel 6150 2200 2    28   Input ~ 0
+Vdat
+Wire Wire Line
+	6150 2200 6125 2200
+Wire Wire Line
+	6125 2200 6125 2300
+Connection ~ 6125 2300
+Text Notes 4400 3200 0    157  Italic 31
+Group 1
+Wire Notes Line
+	8100 3250 8100 1925
+Text Notes 5950 3125 0    98   Italic 0
+3.3v Generation
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5D49F6C8
+P 8925 2650
+F 0 "J2" H 8953 2626 50  0000 L CNN
+F 1 "V Motor In" H 8650 2750 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 8925 2650 50  0001 C CNN
+F 3 "~" H 8925 2650 50  0001 C CNN
+	1    8925 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q4
+U 1 1 5D4B0124
+P 8450 2300
+F 0 "Q4" H 8656 2300 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 8702 2300 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 8650 2400 50  0001 C CNN
+F 3 "~" H 8450 2300 50  0001 C CNN
+	1    8450 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5D4B012B
+P 8775 2300
+F 0 "R4" V 8971 2300 50  0000 C CNN
+F 1 "10k" V 8880 2300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8775 2300 50  0001 C CNN
+F 3 "~" H 8775 2300 50  0001 C CNN
+	1    8775 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8675 2300 8650 2300
+$Comp
+L power:GND #e0120
+U 1 1 5D4B0133
+P 8900 2300
+F 0 "#e0120" H 8900 2050 50  0001 C CNN
+F 1 "GND" H 8988 2263 50  0001 L CNN
+F 2 "" H 8900 2300 50  0001 C CNN
+F 3 "" H 8900 2300 50  0001 C CNN
+	1    8900 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8875 2300 8900 2300
+Wire Wire Line
+	8350 2500 8375 2500
+$Comp
+L Device:D_Zener_Small D2
+U 1 1 5D4B013C
+P 8475 2075
+F 0 "D2" V 8550 1975 50  0000 L CNN
+F 1 "D_Zener_Small" H 8475 1961 50  0001 C CNN
+F 2 "Diodes_SMD:D_2114" V 8475 2075 50  0001 C CNN
+F 3 "~" V 8475 2075 50  0001 C CNN
+	1    8475 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2100 8350 2075
+Wire Wire Line
+	8350 2075 8375 2075
+Wire Wire Line
+	8575 2075 8675 2075
+Wire Wire Line
+	8675 2075 8675 2300
+Connection ~ 8675 2300
+Text GLabel 8375 1975 2    28   Input ~ 0
+VMot
+Wire Wire Line
+	8375 1975 8350 1975
+Wire Wire Line
+	8350 1975 8350 2075
+Connection ~ 8350 2075
+$Comp
+L power:GND #e0121
+U 1 1 5D4B8FF4
+P 8700 2775
+F 0 "#e0121" H 8700 2525 50  0001 C CNN
+F 1 "GND" H 8788 2738 50  0001 L CNN
+F 2 "" H 8700 2775 50  0001 C CNN
+F 3 "" H 8700 2775 50  0001 C CNN
+	1    8700 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8725 2750 8700 2750
+Wire Wire Line
+	8700 2750 8700 2775
+Text GLabel 8700 2650 0    28   Input ~ 0
+VMotIn
+Wire Wire Line
+	8700 2650 8725 2650
+Text GLabel 8375 2500 2    28   Input ~ 0
+VMotIn
+Wire Notes Line
+	9400 3250 9400 1925
+Text Notes 8175 3175 0    79   Italic 0
+Motor Voltage\n
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A9
+U 1 1 5D51B142
+P 1500 3975
+F 0 "A9" H 1600 4275 50  0000 C CNN
+F 1 "Pololu" H 1675 4200 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 1775 3225 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 1600 3675 50  0001 C CNN
+	1    1500 3975
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G2_Con1
+U 1 1 5D51B149
+P 1500 4700
+F 0 "G2_Con1" V 1300 4125 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 1438 4848 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 1500 4700 50  0001 C CNN
+F 3 "~" H 1500 4700 50  0001 C CNN
+	1    1500 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	700  4175 700  3975
+Wire Wire Line
+	1300 4475 1300 4500
+Wire Wire Line
+	1400 4475 1400 4500
+Wire Wire Line
+	1500 4500 1500 4475
+Wire Wire Line
+	1600 4475 1600 4500
+Text GLabel 2200 3950 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	2200 3950 2200 3975
+Text GLabel 2200 4150 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	2200 4175 2200 4150
+$Comp
+L Device:CP1_Small C11
+U 1 1 5D51B159
+P 2200 4325
+F 0 "C11" H 2000 4225 50  0000 L CNN
+F 1 "100uf" H 1850 4150 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 2200 4325 50  0001 C CNN
+F 3 "~" H 2200 4325 50  0001 C CNN
+	1    2200 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4225 2200 4175
+Connection ~ 2200 4175
+$Comp
+L power:GND #e0122
+U 1 1 5D51B162
+P 2200 4450
+F 0 "#e0122" H 2200 4200 50  0001 C CNN
+F 1 "GND" H 2288 4413 50  0001 L CNN
+F 2 "" H 2200 4450 50  0001 C CNN
+F 3 "" H 2200 4450 50  0001 C CNN
+	1    2200 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4425 2200 4450
+$Comp
+L power:GND #e0123
+U 1 1 5D51B169
+P 700 4200
+F 0 "#e0123" H 700 3950 50  0001 C CNN
+F 1 "GND" H 788 4163 50  0001 L CNN
+F 2 "" H 700 4200 50  0001 C CNN
+F 3 "" H 700 4200 50  0001 C CNN
+	1    700  4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  4200 700  4175
+Connection ~ 700  4175
+NoConn ~ 1000 3575
+NoConn ~ 1100 3575
+NoConn ~ 1200 3575
+NoConn ~ 1600 3575
+Wire Wire Line
+	1800 3575 1800 3550
+Wire Wire Line
+	1800 3550 1900 3550
+Wire Wire Line
+	1900 3550 1900 3575
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A10
+U 1 1 5D51B178
+P 3100 3975
+F 0 "A10" H 3200 4275 50  0000 C CNN
+F 1 "Pololu" H 3275 4200 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 3375 3225 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 3200 3675 50  0001 C CNN
+	1    3100 3975
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G2_Con2
+U 1 1 5D51B17F
+P 3100 4700
+F 0 "G2_Con2" V 2900 4125 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 3038 4848 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 3100 4700 50  0001 C CNN
+F 3 "~" H 3100 4700 50  0001 C CNN
+	1    3100 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 4175 2300 3975
+Wire Wire Line
+	2900 4475 2900 4500
+Wire Wire Line
+	3000 4475 3000 4500
+Wire Wire Line
+	3100 4500 3100 4475
+Wire Wire Line
+	3200 4475 3200 4500
+Text GLabel 3800 3950 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	3800 3950 3800 3975
+Text GLabel 3800 4150 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	3800 4175 3800 4150
+$Comp
+L Device:CP1_Small C12
+U 1 1 5D51B18F
+P 3800 4325
+F 0 "C12" H 3600 4225 50  0000 L CNN
+F 1 "100uf" H 3450 4150 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 3800 4325 50  0001 C CNN
+F 3 "~" H 3800 4325 50  0001 C CNN
+	1    3800 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4225 3800 4175
+Connection ~ 3800 4175
+$Comp
+L power:GND #e0124
+U 1 1 5D51B198
+P 3800 4450
+F 0 "#e0124" H 3800 4200 50  0001 C CNN
+F 1 "GND" H 3888 4413 50  0001 L CNN
+F 2 "" H 3800 4450 50  0001 C CNN
+F 3 "" H 3800 4450 50  0001 C CNN
+	1    3800 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4425 3800 4450
+$Comp
+L power:GND #e0125
+U 1 1 5D51B19F
+P 2300 4200
+F 0 "#e0125" H 2300 3950 50  0001 C CNN
+F 1 "GND" H 2388 4163 50  0001 L CNN
+F 2 "" H 2300 4200 50  0001 C CNN
+F 3 "" H 2300 4200 50  0001 C CNN
+	1    2300 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4200 2300 4175
+Connection ~ 2300 4175
+NoConn ~ 2600 3575
+NoConn ~ 2700 3575
+NoConn ~ 2800 3575
+NoConn ~ 3200 3575
+Wire Wire Line
+	3400 3575 3400 3550
+Wire Wire Line
+	3400 3550 3500 3550
+Wire Wire Line
+	3500 3550 3500 3575
+Text GLabel 3100 3550 1    28   Input ~ 0
+Step2
+Text GLabel 3000 3550 1    28   Input ~ 0
+Dir2
+Wire Wire Line
+	3100 3575 3100 3550
+Wire Wire Line
+	3000 3550 3000 3575
+Text GLabel 1500 3550 1    28   Input ~ 0
+Step2
+Text GLabel 1400 3550 1    28   Input ~ 0
+Dir2
+Wire Wire Line
+	1400 3575 1400 3550
+Wire Wire Line
+	1500 3550 1500 3575
+$Comp
+L Transistor_BJT:BC141 Q5
+U 1 1 5D5298E9
+P 4425 3800
+F 0 "Q5" H 4616 3800 50  0000 L CNN
+F 1 "BC141" H 4615 3845 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 4625 3725 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 4425 3800 50  0001 L CNN
+	1    4425 3800
+	-1   0    0    1   
+$EndComp
+Text GLabel 4325 4025 2    28   Input ~ 0
+Vdat
+Wire Wire Line
+	4625 3800 4650 3800
+Text GLabel 4875 3800 2    28   Input ~ 0
+Step2En
+Text GLabel 4325 3575 2    28   Input ~ 0
+Step2
+Wire Wire Line
+	4325 3600 4325 3575
+Wire Wire Line
+	4325 4000 4325 4025
+$Comp
+L Device:R_Small R5
+U 1 1 5D5298F6
+P 4750 3800
+F 0 "R5" V 4675 3800 50  0000 C CNN
+F 1 "1k" V 4750 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4750 3800 50  0001 C CNN
+F 3 "~" H 4750 3800 50  0001 C CNN
+	1    4750 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 3800 4875 3800
+$Comp
+L Transistor_BJT:BC141 Q6
+U 1 1 5D5298FE
+P 4425 4325
+F 0 "Q6" H 4616 4325 50  0000 L CNN
+F 1 "BC141" H 4615 4370 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 4625 4250 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 4425 4325 50  0001 L CNN
+	1    4425 4325
+	-1   0    0    1   
+$EndComp
+Text GLabel 4325 4550 2    28   Input ~ 0
+Vdat
+Wire Wire Line
+	4625 4325 4650 4325
+Text GLabel 4875 4325 2    28   Input ~ 0
+Dir2En
+Text GLabel 4325 4100 2    28   Input ~ 0
+Dir2
+Wire Wire Line
+	4325 4125 4325 4100
+Wire Wire Line
+	4325 4525 4325 4550
+$Comp
+L Device:R_Small R6
+U 1 1 5D52990B
+P 4750 4325
+F 0 "R6" V 4675 4325 50  0000 C CNN
+F 1 "1k" V 4750 4325 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4750 4325 50  0001 C CNN
+F 3 "~" H 4750 4325 50  0001 C CNN
+	1    4750 4325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 4325 4875 4325
+Wire Notes Line
+	5375 1925 5375 5000
+Text Notes 4375 4950 0    157  Italic 31
+Group 2
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A11
+U 1 1 5D5595A4
+P 6300 3950
+F 0 "A11" H 6400 4250 50  0000 C CNN
+F 1 "Pololu" H 6475 4175 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 6575 3200 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 6400 3650 50  0001 C CNN
+	1    6300 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G4_Con1
+U 1 1 5D5595AB
+P 6300 4675
+F 0 "G4_Con1" V 6100 4100 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 6238 4823 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 6300 4675 50  0001 C CNN
+F 3 "~" H 6300 4675 50  0001 C CNN
+	1    6300 4675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 4150 5500 3950
+Wire Wire Line
+	6100 4450 6100 4475
+Wire Wire Line
+	6200 4450 6200 4475
+Wire Wire Line
+	6300 4475 6300 4450
+Wire Wire Line
+	6400 4450 6400 4475
+Text GLabel 7000 3925 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	7000 3925 7000 3950
+Text GLabel 7000 4125 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	7000 4150 7000 4125
+$Comp
+L Device:CP1_Small C13
+U 1 1 5D5595BB
+P 7000 4300
+F 0 "C13" H 6800 4200 50  0000 L CNN
+F 1 "100uf" H 6650 4125 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 7000 4300 50  0001 C CNN
+F 3 "~" H 7000 4300 50  0001 C CNN
+	1    7000 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4200 7000 4150
+Connection ~ 7000 4150
+$Comp
+L power:GND #e0126
+U 1 1 5D5595C4
+P 7000 4425
+F 0 "#e0126" H 7000 4175 50  0001 C CNN
+F 1 "GND" H 7088 4388 50  0001 L CNN
+F 2 "" H 7000 4425 50  0001 C CNN
+F 3 "" H 7000 4425 50  0001 C CNN
+	1    7000 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4400 7000 4425
+$Comp
+L power:GND #e0127
+U 1 1 5D5595CB
+P 5500 4175
+F 0 "#e0127" H 5500 3925 50  0001 C CNN
+F 1 "GND" H 5588 4138 50  0001 L CNN
+F 2 "" H 5500 4175 50  0001 C CNN
+F 3 "" H 5500 4175 50  0001 C CNN
+	1    5500 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4175 5500 4150
+Connection ~ 5500 4150
+NoConn ~ 5800 3550
+NoConn ~ 5900 3550
+NoConn ~ 6000 3550
+NoConn ~ 6400 3550
+Wire Wire Line
+	6600 3550 6600 3525
+Wire Wire Line
+	6600 3525 6700 3525
+Wire Wire Line
+	6700 3525 6700 3550
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A12
+U 1 1 5D5595DA
+P 7900 3950
+F 0 "A12" H 8000 4250 50  0000 C CNN
+F 1 "Pololu" H 8075 4175 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 8175 3200 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 8000 3650 50  0001 C CNN
+	1    7900 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G4_Con2
+U 1 1 5D5595E1
+P 7900 4675
+F 0 "G4_Con2" V 7700 4100 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 7838 4823 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 7900 4675 50  0001 C CNN
+F 3 "~" H 7900 4675 50  0001 C CNN
+	1    7900 4675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 4150 7100 3950
+Wire Wire Line
+	7700 4450 7700 4475
+Wire Wire Line
+	7800 4450 7800 4475
+Wire Wire Line
+	7900 4475 7900 4450
+Wire Wire Line
+	8000 4450 8000 4475
+Text GLabel 8600 3925 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	8600 3925 8600 3950
+Text GLabel 8600 4125 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	8600 4150 8600 4125
+$Comp
+L Device:CP1_Small C14
+U 1 1 5D5595F1
+P 8600 4300
+F 0 "C14" H 8400 4200 50  0000 L CNN
+F 1 "100uf" H 8250 4125 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 8600 4300 50  0001 C CNN
+F 3 "~" H 8600 4300 50  0001 C CNN
+	1    8600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 4200 8600 4150
+Connection ~ 8600 4150
+$Comp
+L power:GND #e0128
+U 1 1 5D5595FA
+P 8600 4425
+F 0 "#e0128" H 8600 4175 50  0001 C CNN
+F 1 "GND" H 8688 4388 50  0001 L CNN
+F 2 "" H 8600 4425 50  0001 C CNN
+F 3 "" H 8600 4425 50  0001 C CNN
+	1    8600 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 4400 8600 4425
+$Comp
+L power:GND #e0129
+U 1 1 5D559601
+P 7100 4175
+F 0 "#e0129" H 7100 3925 50  0001 C CNN
+F 1 "GND" H 7188 4138 50  0001 L CNN
+F 2 "" H 7100 4175 50  0001 C CNN
+F 3 "" H 7100 4175 50  0001 C CNN
+	1    7100 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4175 7100 4150
+Connection ~ 7100 4150
+NoConn ~ 7400 3550
+NoConn ~ 7500 3550
+NoConn ~ 7600 3550
+NoConn ~ 8000 3550
+Wire Wire Line
+	8200 3550 8200 3525
+Wire Wire Line
+	8200 3525 8300 3525
+Wire Wire Line
+	8300 3525 8300 3550
+Text GLabel 7900 3525 1    28   Input ~ 0
+Step4
+Text GLabel 7800 3525 1    28   Input ~ 0
+Dir4
+Wire Wire Line
+	7900 3550 7900 3525
+Wire Wire Line
+	7800 3525 7800 3550
+Text GLabel 6300 3525 1    28   Input ~ 0
+Step4
+Text GLabel 6200 3525 1    28   Input ~ 0
+Dir4
+Wire Wire Line
+	6200 3550 6200 3525
+Wire Wire Line
+	6300 3525 6300 3550
+$Comp
+L Transistor_BJT:BC141 Q7
+U 1 1 5D559618
+P 9225 3775
+F 0 "Q7" H 9416 3775 50  0000 L CNN
+F 1 "BC141" H 9415 3820 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 9425 3700 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 9225 3775 50  0001 L CNN
+	1    9225 3775
+	-1   0    0    1   
+$EndComp
+Text GLabel 9125 4000 2    28   Input ~ 0
+Vdat
+Wire Wire Line
+	9425 3775 9450 3775
+Text GLabel 9675 3775 2    28   Input ~ 0
+Step4En
+Text GLabel 9125 3550 2    28   Input ~ 0
+Step4
+Wire Wire Line
+	9125 3575 9125 3550
+Wire Wire Line
+	9125 3975 9125 4000
+$Comp
+L Device:R_Small R7
+U 1 1 5D559625
+P 9550 3775
+F 0 "R7" V 9475 3775 50  0000 C CNN
+F 1 "1k" V 9550 3775 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 9550 3775 50  0001 C CNN
+F 3 "~" H 9550 3775 50  0001 C CNN
+	1    9550 3775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 3775 9675 3775
+$Comp
+L Transistor_BJT:BC141 Q8
+U 1 1 5D55962D
+P 9225 4300
+F 0 "Q8" H 9416 4300 50  0000 L CNN
+F 1 "BC141" H 9415 4345 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 9425 4225 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/296634.pdf" H 9225 4300 50  0001 L CNN
+	1    9225 4300
+	-1   0    0    1   
+$EndComp
+Text GLabel 9125 4525 2    28   Input ~ 0
+Vdat
+Wire Wire Line
+	9425 4300 9450 4300
+Text GLabel 9675 4300 2    28   Input ~ 0
+Dir4En
+Text GLabel 9125 4075 2    28   Input ~ 0
+Dir4
+Wire Wire Line
+	9125 4100 9125 4075
+Wire Wire Line
+	9125 4500 9125 4525
+$Comp
+L Device:R_Small R8
+U 1 1 5D55963A
+P 9550 4300
+F 0 "R8" V 9475 4300 50  0000 C CNN
+F 1 "1k" V 9550 4300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 9550 4300 50  0001 C CNN
+F 3 "~" H 9550 4300 50  0001 C CNN
+	1    9550 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 4300 9675 4300
+Text Notes 9125 4950 0    157  Italic 31
+Group 4\n
+$Comp
+L Connector:Conn_01x02_Female J9
+U 1 1 5D56F74F
+P 10850 1425
+F 0 "J9" V 10697 1473 50  0001 L CNN
+F 1 "G1" V 10743 1473 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 10850 1425 50  0001 C CNN
+F 3 "~" H 10850 1425 50  0001 C CNN
+	1    10850 1425
+	0    1    1    0   
+$EndComp
+Text GLabel 10750 1200 1    28   Input ~ 0
+Step1En
+Text GLabel 10850 1200 1    28   Input ~ 0
+Dir1En
+Wire Wire Line
+	10750 1200 10750 1225
+Wire Wire Line
+	10850 1200 10850 1225
+Wire Notes Line
+	11075 475  11075 1925
+Wire Notes Line
+	575  475  11075 475 
+Wire Notes Line
+	5375 1925 11075 1925
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5D5D6C38
+P 2700 4750
+F 0 "J3" V 2547 4798 50  0001 L CNN
+F 1 "G2" H 2600 4825 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 2700 4750 50  0001 C CNN
+F 3 "~" H 2700 4750 50  0001 C CNN
+	1    2700 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 2475 4850 0    28   Input ~ 0
+Step2En
+Text GLabel 2475 4750 0    28   Input ~ 0
+Dir2En
+Wire Wire Line
+	2475 4850 2500 4850
+Wire Wire Line
+	2475 4750 2500 4750
+$Comp
+L Connector:Conn_01x02_Female J6
+U 1 1 5D62A893
+P 7475 4725
+F 0 "J6" V 7322 4773 50  0001 L CNN
+F 1 "G4" H 7375 4800 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 7475 4725 50  0001 C CNN
+F 3 "~" H 7475 4725 50  0001 C CNN
+	1    7475 4725
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 4825 0    28   Input ~ 0
+Step4En
+Text GLabel 7250 4725 0    28   Input ~ 0
+Dir4En
+Wire Wire Line
+	7250 4825 7275 4825
+Wire Wire Line
+	7250 4725 7275 4725
+Wire Notes Line
+	10100 3250 10100 5000
+Wire Notes Line
+	575  3250 10100 3250
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A13
+U 1 1 5D654A16
+P 1500 5650
+F 0 "A13" H 1600 5950 50  0000 C CNN
+F 1 "Pololu" H 1675 5875 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 1775 4900 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 1600 5350 50  0001 C CNN
+	1    1500 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G3_Con1
+U 1 1 5D654A1D
+P 1500 6375
+F 0 "G3_Con1" V 1300 5800 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 1438 6523 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 1500 6375 50  0001 C CNN
+F 3 "~" H 1500 6375 50  0001 C CNN
+	1    1500 6375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	700  5850 700  5650
+Wire Wire Line
+	1300 6150 1300 6175
+Wire Wire Line
+	1400 6150 1400 6175
+Wire Wire Line
+	1500 6175 1500 6150
+Wire Wire Line
+	1600 6150 1600 6175
+Text GLabel 2200 5625 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	2200 5625 2200 5650
+Text GLabel 2225 5825 1    28   Input ~ 0
+VMot
+$Comp
+L Device:CP1_Small C15
+U 1 1 5D654A2D
+P 2200 6000
+F 0 "C15" H 2000 5900 50  0000 L CNN
+F 1 "100uf" H 1850 5825 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 2200 6000 50  0001 C CNN
+F 3 "~" H 2200 6000 50  0001 C CNN
+	1    2200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #e0130
+U 1 1 5D654A36
+P 2200 6125
+F 0 "#e0130" H 2200 5875 50  0001 C CNN
+F 1 "GND" H 2288 6088 50  0001 L CNN
+F 2 "" H 2200 6125 50  0001 C CNN
+F 3 "" H 2200 6125 50  0001 C CNN
+	1    2200 6125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6100 2200 6125
+$Comp
+L power:GND #e0131
+U 1 1 5D654A3D
+P 700 5875
+F 0 "#e0131" H 700 5625 50  0001 C CNN
+F 1 "GND" H 788 5838 50  0001 L CNN
+F 2 "" H 700 5875 50  0001 C CNN
+F 3 "" H 700 5875 50  0001 C CNN
+	1    700  5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  5875 700  5850
+Connection ~ 700  5850
+NoConn ~ 1000 5250
+NoConn ~ 1100 5250
+NoConn ~ 1200 5250
+NoConn ~ 1600 5250
+Wire Wire Line
+	1800 5250 1800 5225
+Wire Wire Line
+	1800 5225 1900 5225
+Wire Wire Line
+	1900 5225 1900 5250
+Text GLabel 1500 5225 1    28   Input ~ 0
+Step3
+Text GLabel 1400 5225 1    28   Input ~ 0
+Dir3
+Wire Wire Line
+	1400 5250 1400 5225
+Wire Wire Line
+	1500 5225 1500 5250
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 5D66D401
+P 3000 5550
+F 0 "J4" V 2847 5598 50  0001 L CNN
+F 1 "G3" H 2900 5625 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 3000 5550 50  0001 C CNN
+F 3 "~" H 3000 5550 50  0001 C CNN
+	1    3000 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2775 5650 0    28   Input ~ 0
+Step3
+Text GLabel 2775 5550 0    28   Input ~ 0
+Dir3
+Wire Wire Line
+	2775 5650 2800 5650
+Wire Wire Line
+	2775 5550 2800 5550
+Wire Notes Line
+	575  475  575  6425
+Text Notes 2275 6375 0    157  Italic 31
+Group 3
+Wire Notes Line
+	3250 6425 3250 5000
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A14
+U 1 1 5D71DB5A
+P 4125 5650
+F 0 "A14" H 4225 5950 50  0000 C CNN
+F 1 "Pololu" H 4300 5875 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 4400 4900 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 4225 5350 50  0001 C CNN
+	1    4125 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G5_Con1
+U 1 1 5D71DB61
+P 4125 6375
+F 0 "G5_Con1" V 3925 5800 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 4063 6523 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 4125 6375 50  0001 C CNN
+F 3 "~" H 4125 6375 50  0001 C CNN
+	1    4125 6375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3325 5850 3325 5650
+Wire Wire Line
+	3925 6150 3925 6175
+Wire Wire Line
+	4025 6150 4025 6175
+Wire Wire Line
+	4125 6175 4125 6150
+Wire Wire Line
+	4225 6150 4225 6175
+Text GLabel 4825 5625 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	4825 5625 4825 5650
+Text GLabel 4825 5825 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	4825 5850 4825 5825
+$Comp
+L Device:CP1_Small C16
+U 1 1 5D71DB71
+P 4825 6000
+F 0 "C16" H 4625 5900 50  0000 L CNN
+F 1 "100uf" H 4475 5825 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 4825 6000 50  0001 C CNN
+F 3 "~" H 4825 6000 50  0001 C CNN
+	1    4825 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 5900 4825 5850
+Connection ~ 4825 5850
+$Comp
+L power:GND #e0132
+U 1 1 5D71DB7A
+P 4825 6125
+F 0 "#e0132" H 4825 5875 50  0001 C CNN
+F 1 "GND" H 4913 6088 50  0001 L CNN
+F 2 "" H 4825 6125 50  0001 C CNN
+F 3 "" H 4825 6125 50  0001 C CNN
+	1    4825 6125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 6100 4825 6125
+$Comp
+L power:GND #e0133
+U 1 1 5D71DB81
+P 3325 5875
+F 0 "#e0133" H 3325 5625 50  0001 C CNN
+F 1 "GND" H 3413 5838 50  0001 L CNN
+F 2 "" H 3325 5875 50  0001 C CNN
+F 3 "" H 3325 5875 50  0001 C CNN
+	1    3325 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 5875 3325 5850
+Connection ~ 3325 5850
+NoConn ~ 3625 5250
+NoConn ~ 3725 5250
+NoConn ~ 3825 5250
+NoConn ~ 4225 5250
+Wire Wire Line
+	4425 5250 4425 5225
+Wire Wire Line
+	4425 5225 4525 5225
+Wire Wire Line
+	4525 5225 4525 5250
+Text GLabel 4125 5225 1    28   Input ~ 0
+Step5
+Text GLabel 4025 5225 1    28   Input ~ 0
+Dir5
+Wire Wire Line
+	4025 5250 4025 5225
+Wire Wire Line
+	4125 5225 4125 5250
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 5D71DB94
+P 5625 5550
+F 0 "J5" V 5472 5598 50  0001 L CNN
+F 1 "G5" H 5525 5625 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 5625 5550 50  0001 C CNN
+F 3 "~" H 5625 5550 50  0001 C CNN
+	1    5625 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 5650 0    28   Input ~ 0
+Step5
+Text GLabel 5400 5550 0    28   Input ~ 0
+Dir5
+Wire Wire Line
+	5400 5650 5425 5650
+Wire Wire Line
+	5400 5550 5425 5550
+Text Notes 4875 6375 0    157  Italic 31
+Group 5\n
+Wire Notes Line
+	5875 6425 5875 5000
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A15
+U 1 1 5D7573EB
+P 6750 5650
+F 0 "A15" H 6850 5950 50  0000 C CNN
+F 1 "Pololu" H 6925 5875 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 7025 4900 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 6850 5350 50  0001 C CNN
+	1    6750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female G6_Con1
+U 1 1 5D7573F2
+P 6750 6375
+F 0 "G6_Con1" V 6550 5800 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 6688 6523 50  0001 L CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 6750 6375 50  0001 C CNN
+F 3 "~" H 6750 6375 50  0001 C CNN
+	1    6750 6375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 5850 5950 5650
+Wire Wire Line
+	6550 6150 6550 6175
+Wire Wire Line
+	6650 6150 6650 6175
+Wire Wire Line
+	6750 6175 6750 6150
+Wire Wire Line
+	6850 6150 6850 6175
+Text GLabel 7450 5625 1    28   Input ~ 0
+Vdat
+Wire Wire Line
+	7450 5625 7450 5650
+Text GLabel 7450 5825 1    28   Input ~ 0
+VMot
+Wire Wire Line
+	7450 5850 7450 5825
+$Comp
+L Device:CP1_Small C17
+U 1 1 5D757402
+P 7450 6000
+F 0 "C17" H 7250 5900 50  0000 L CNN
+F 1 "100uf" H 7100 5825 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 7450 6000 50  0001 C CNN
+F 3 "~" H 7450 6000 50  0001 C CNN
+	1    7450 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5900 7450 5850
+Connection ~ 7450 5850
+$Comp
+L power:GND #e0134
+U 1 1 5D75740B
+P 7450 6125
+F 0 "#e0134" H 7450 5875 50  0001 C CNN
+F 1 "GND" H 7538 6088 50  0001 L CNN
+F 2 "" H 7450 6125 50  0001 C CNN
+F 3 "" H 7450 6125 50  0001 C CNN
+	1    7450 6125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 6100 7450 6125
+$Comp
+L power:GND #e0135
+U 1 1 5D757412
+P 5950 5875
+F 0 "#e0135" H 5950 5625 50  0001 C CNN
+F 1 "GND" H 6038 5838 50  0001 L CNN
+F 2 "" H 5950 5875 50  0001 C CNN
+F 3 "" H 5950 5875 50  0001 C CNN
+	1    5950 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5875 5950 5850
+Connection ~ 5950 5850
+NoConn ~ 6250 5250
+NoConn ~ 6350 5250
+NoConn ~ 6450 5250
+NoConn ~ 6850 5250
+Wire Wire Line
+	7050 5250 7050 5225
+Wire Wire Line
+	7050 5225 7150 5225
+Wire Wire Line
+	7150 5225 7150 5250
+Text GLabel 6750 5225 1    28   Input ~ 0
+Step6
+Text GLabel 6650 5225 1    28   Input ~ 0
+Dir6
+Wire Wire Line
+	6650 5250 6650 5225
+Wire Wire Line
+	6750 5225 6750 5250
+$Comp
+L Connector:Conn_01x02_Female J7
+U 1 1 5D757425
+P 8150 5400
+F 0 "J7" V 7997 5448 50  0001 L CNN
+F 1 "G6" H 8050 5475 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 8150 5400 50  0001 C CNN
+F 3 "~" H 8150 5400 50  0001 C CNN
+	1    8150 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7925 5500 0    28   Input ~ 0
+Step6
+Text GLabel 7925 5400 0    28   Input ~ 0
+Dir6
+Wire Wire Line
+	7925 5500 7950 5500
+Wire Wire Line
+	7925 5400 7950 5400
+Text Notes 7625 6375 0    157  Italic 31
+Group 6\n
+Wire Notes Line
+	8625 6425 8625 5000
+Wire Notes Line
+	575  5000 10100 5000
+Wire Notes Line
+	8625 6425 575  6425
+Wire Wire Line
+	6375 650  6375 675 
+Wire Wire Line
+	6475 650  6475 675 
+Wire Wire Line
+	2375 2575 2375 2600
+Wire Wire Line
+	2375 2650 2375 2600
+Connection ~ 2375 2600
+Wire Wire Line
+	5575 1250 5575 1275
+Connection ~ 5575 1275
+Wire Wire Line
+	5575 1275 5575 1325
+Wire Wire Line
+	10400 1075 10425 1075
+Wire Wire Line
+	2425 2400 2375 2400
+Wire Wire Line
+	2225 5825 2225 5850
+Wire Wire Line
+	2225 5850 2200 5850
+Wire Wire Line
+	2200 5850 2200 5900
+Connection ~ 2200 5850
+Wire Wire Line
+	10400 1525 10400 1575
+$EndSCHEMATC

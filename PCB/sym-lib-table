@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "TonOfSteppers-rescue")(type "Legacy")(uri "${KIPRJMOD}/TonOfSteppers-rescue.lib")(options "")(descr ""))
+)

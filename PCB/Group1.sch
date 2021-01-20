@@ -1,0 +1,496 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 2 6
+Title "Tons Of Steppers - Group 1"
+Date ""
+Rev "2.0"
+Comp "Sensa Group"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 5050 7575 1    47   Input ~ 0
+V_DAT
+Wire Wire Line
+	4750 7800 4725 7800
+Wire Wire Line
+	5050 8000 5050 8025
+Wire Wire Line
+	5050 7600 5050 7575
+$Comp
+L Device:R_Small R?
+U 1 1 5F853C11
+P 4625 7800
+AR Path="/5F853C11" Ref="R?"  Part="1" 
+AR Path="/5F75BE7E/5F853C11" Ref="R?"  Part="1" 
+AR Path="/5F75B229/5F853C11" Ref="R2"  Part="1" 
+F 0 "R2" V 4550 7800 50  0000 C CNN
+F 1 "1k" V 4625 7800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4625 7800 50  0001 C CNN
+F 3 "~" H 4625 7800 50  0001 C CNN
+	1    4625 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4525 7800 4500 7800
+Text GLabel 3175 7550 1    47   Input ~ 0
+V_DAT
+Wire Wire Line
+	2875 7775 2850 7775
+Wire Wire Line
+	3175 7975 3175 8000
+Wire Wire Line
+	3175 7575 3175 7550
+$Comp
+L Device:R_Small R?
+U 1 1 5F853C22
+P 2750 7775
+AR Path="/5F853C22" Ref="R?"  Part="1" 
+AR Path="/5F75BE7E/5F853C22" Ref="R?"  Part="1" 
+AR Path="/5F75B229/5F853C22" Ref="R1"  Part="1" 
+F 0 "R1" V 2675 7775 50  0000 C CNN
+F 1 "1k" V 2750 7775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2750 7775 50  0001 C CNN
+F 3 "~" H 2750 7775 50  0001 C CNN
+	1    2750 7775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 7775 2625 7775
+Text HLabel 2625 7775 0    59   Input ~ 0
+DIR1_EN
+Text HLabel 4500 7800 0    59   Input ~ 0
+STEP1_EN
+Text Label 5050 8025 3    47   ~ 0
+STEP1
+Text Label 3175 8000 3    47   ~ 0
+DIR1
+Wire Notes Line
+	1750 2875 6275 2875
+Text Notes 5550 2825 0    98   ~ 0
+Stepper 1
+Wire Notes Line
+	1750 4250 6275 4250
+Text Notes 5550 4200 0    98   ~ 0
+Stepper 2
+Wire Notes Line
+	1750 5625 6275 5625
+Text Notes 5550 5575 0    98   ~ 0
+Stepper 3
+Text Notes 5550 6875 0    98   ~ 0
+Stepper 4
+Wire Notes Line
+	1750 6925 6275 6925
+Wire Notes Line
+	6275 8925 6250 8925
+Text Notes 4900 8550 0    98   ~ 0
+Signal Processing
+Wire Notes Line
+	1750 8600 6275 8600
+Text Label 3975 6275 3    47   ~ 0
+STEP1
+Text Label 4175 6275 3    47   ~ 0
+DIR1
+$Comp
+L Connector:Conn_01x12_Male J6
+U 1 1 5F889FEA
+P 3975 5875
+F 0 "J6" V 3810 5803 50  0000 C CNN
+F 1 "Conn_01x12_Male" V 3901 5803 50  0000 C CNN
+F 2 "TonsOfSteppers:Molex_12PIN" H 3975 5875 50  0001 C CNN
+F 3 "~" H 3975 5875 50  0001 C CNN
+	1    3975 5875
+	0    1    1    0   
+$EndComp
+NoConn ~ 4475 6075
+$Comp
+L power:GND #PWR?
+U 1 1 5F889FFE
+P 4275 6450
+AR Path="/5F75BE7E/5F889FFE" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5F889FFE" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 4275 6200 50  0001 C CNN
+F 1 "GND" H 4280 6277 50  0000 C CNN
+F 2 "" H 4275 6450 50  0001 C CNN
+F 3 "" H 4275 6450 50  0001 C CNN
+	1    4275 6450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3375 6275 3    47   Input ~ 0
+V_MOT
+$Comp
+L Connector:Conn_01x04_Female G5_Con?
+U 1 1 5F90A95A
+P 3775 6850
+AR Path="/5F90A95A" Ref="G5_Con?"  Part="1" 
+AR Path="/5F75CBF4/5F90A95A" Ref="G5_Con?"  Part="1" 
+AR Path="/5F736439/5F90A95A" Ref="G5_Con?"  Part="1" 
+AR Path="/5F739ED7/5F90A95A" Ref="G5_Con?"  Part="1" 
+AR Path="/5F75B229/5F90A95A" Ref="G5_Con3"  Part="1" 
+F 0 "G5_Con3" V 3750 6275 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 3713 6998 50  0001 L CNN
+F 2 "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" H 3775 6850 50  0001 C CNN
+F 3 "~" H 3775 6850 50  0001 C CNN
+	1    3775 6850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3575 6075 3575 6650
+Wire Wire Line
+	3675 6075 3675 6650
+Wire Wire Line
+	3775 6075 3775 6650
+Wire Wire Line
+	3875 6075 3875 6650
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 5FDAB747
+P 3075 7775
+AR Path="/5F75D8A5/5FDAB747" Ref="Q?"  Part="1" 
+AR Path="/5F75B229/5FDAB747" Ref="Q1"  Part="1" 
+F 0 "Q1" H 3266 7821 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 3266 7730 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 3275 7875 50  0001 C CNN
+F 3 "~" H 3075 7775 50  0001 C CNN
+	1    3075 7775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 5FDB6D0D
+P 4950 7800
+AR Path="/5F75D8A5/5FDB6D0D" Ref="Q?"  Part="1" 
+AR Path="/5F75B229/5FDB6D0D" Ref="Q2"  Part="1" 
+F 0 "Q2" H 5141 7846 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 5141 7755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 5150 7900 50  0001 C CNN
+F 3 "~" H 4950 7800 50  0001 C CNN
+	1    4950 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 6075 3975 6275
+Wire Wire Line
+	4175 6075 4175 6275
+$Comp
+L power:GND #PWR?
+U 1 1 5FDDE313
+P 4075 6450
+AR Path="/5F75BE7E/5FDDE313" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDDE313" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 4075 6200 50  0001 C CNN
+F 1 "GND" H 4080 6277 50  0000 C CNN
+F 2 "" H 4075 6450 50  0001 C CNN
+F 3 "" H 4075 6450 50  0001 C CNN
+	1    4075 6450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4375 6075
+Wire Wire Line
+	4075 6075 4075 6450
+Wire Wire Line
+	4275 6075 4275 6450
+$Comp
+L power:GND #PWR?
+U 1 1 5FDED46D
+P 3475 6450
+AR Path="/5F75BE7E/5FDED46D" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDED46D" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 3475 6200 50  0001 C CNN
+F 1 "GND" H 3480 6277 50  0000 C CNN
+F 2 "" H 3475 6450 50  0001 C CNN
+F 3 "" H 3475 6450 50  0001 C CNN
+	1    3475 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 6075 3475 6450
+Wire Wire Line
+	3375 6075 3375 6275
+Text Label 3975 4925 3    47   ~ 0
+STEP1
+Text Label 4175 4925 3    47   ~ 0
+DIR1
+$Comp
+L Connector:Conn_01x12_Male J3
+U 1 1 5FDF6482
+P 3975 4525
+F 0 "J3" V 3810 4453 50  0000 C CNN
+F 1 "Conn_01x12_Male" V 3901 4453 50  0000 C CNN
+F 2 "TonsOfSteppers:Molex_12PIN" H 3975 4525 50  0001 C CNN
+F 3 "~" H 3975 4525 50  0001 C CNN
+	1    3975 4525
+	0    1    1    0   
+$EndComp
+NoConn ~ 4475 4725
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF6489
+P 4275 5100
+AR Path="/5F75BE7E/5FDF6489" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDF6489" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 4275 4850 50  0001 C CNN
+F 1 "GND" H 4280 4927 50  0000 C CNN
+F 2 "" H 4275 5100 50  0001 C CNN
+F 3 "" H 4275 5100 50  0001 C CNN
+	1    4275 5100
+	1    0    0    -1  
+$EndComp
+Text GLabel 3375 4925 3    47   Input ~ 0
+V_MOT
+$Comp
+L Connector:Conn_01x04_Female G5_Con?
+U 1 1 5FDF6490
+P 3775 5500
+AR Path="/5FDF6490" Ref="G5_Con?"  Part="1" 
+AR Path="/5F75CBF4/5FDF6490" Ref="G5_Con?"  Part="1" 
+AR Path="/5F736439/5FDF6490" Ref="G5_Con?"  Part="1" 
+AR Path="/5F739ED7/5FDF6490" Ref="G5_Con?"  Part="1" 
+AR Path="/5F75B229/5FDF6490" Ref="G5_Con2"  Part="1" 
+F 0 "G5_Con2" V 3750 4925 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 3713 5648 50  0001 L CNN
+F 2 "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" H 3775 5500 50  0001 C CNN
+F 3 "~" H 3775 5500 50  0001 C CNN
+	1    3775 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3575 4725 3575 5300
+Wire Wire Line
+	3675 4725 3675 5300
+Wire Wire Line
+	3775 4725 3775 5300
+Wire Wire Line
+	3875 4725 3875 5300
+Wire Wire Line
+	3975 4725 3975 4925
+Wire Wire Line
+	4175 4725 4175 4925
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF649C
+P 4075 5100
+AR Path="/5F75BE7E/5FDF649C" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDF649C" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 4075 4850 50  0001 C CNN
+F 1 "GND" H 4080 4927 50  0000 C CNN
+F 2 "" H 4075 5100 50  0001 C CNN
+F 3 "" H 4075 5100 50  0001 C CNN
+	1    4075 5100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4375 4725
+Wire Wire Line
+	4075 4725 4075 5100
+Wire Wire Line
+	4275 4725 4275 5100
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF64A5
+P 3475 5100
+AR Path="/5F75BE7E/5FDF64A5" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDF64A5" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 3475 4850 50  0001 C CNN
+F 1 "GND" H 3480 4927 50  0000 C CNN
+F 2 "" H 3475 5100 50  0001 C CNN
+F 3 "" H 3475 5100 50  0001 C CNN
+	1    3475 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 4725 3475 5100
+Wire Wire Line
+	3375 4725 3375 4925
+Text Label 4000 3575 3    47   ~ 0
+STEP1
+Text Label 4200 3575 3    47   ~ 0
+DIR1
+$Comp
+L Connector:Conn_01x12_Male J5
+U 1 1 5FDF7E41
+P 4000 3175
+F 0 "J5" V 3835 3103 50  0000 C CNN
+F 1 "Conn_01x12_Male" V 3926 3103 50  0000 C CNN
+F 2 "TonsOfSteppers:Molex_12PIN" H 4000 3175 50  0001 C CNN
+F 3 "~" H 4000 3175 50  0001 C CNN
+	1    4000 3175
+	0    1    1    0   
+$EndComp
+NoConn ~ 4500 3375
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF7E48
+P 4300 3750
+AR Path="/5F75BE7E/5FDF7E48" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDF7E48" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 4300 3500 50  0001 C CNN
+F 1 "GND" H 4305 3577 50  0000 C CNN
+F 2 "" H 4300 3750 50  0001 C CNN
+F 3 "" H 4300 3750 50  0001 C CNN
+	1    4300 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 3575 3    47   Input ~ 0
+V_MOT
+$Comp
+L Connector:Conn_01x04_Female G5_Con?
+U 1 1 5FDF7E4F
+P 3800 4150
+AR Path="/5FDF7E4F" Ref="G5_Con?"  Part="1" 
+AR Path="/5F75CBF4/5FDF7E4F" Ref="G5_Con?"  Part="1" 
+AR Path="/5F736439/5FDF7E4F" Ref="G5_Con?"  Part="1" 
+AR Path="/5F739ED7/5FDF7E4F" Ref="G5_Con?"  Part="1" 
+AR Path="/5F75B229/5FDF7E4F" Ref="G5_Con5"  Part="1" 
+F 0 "G5_Con5" V 3775 3575 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 3738 4298 50  0001 L CNN
+F 2 "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" H 3800 4150 50  0001 C CNN
+F 3 "~" H 3800 4150 50  0001 C CNN
+	1    3800 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 3375 3600 3950
+Wire Wire Line
+	3700 3375 3700 3950
+Wire Wire Line
+	3800 3375 3800 3950
+Wire Wire Line
+	3900 3375 3900 3950
+Wire Wire Line
+	4000 3375 4000 3575
+Wire Wire Line
+	4200 3375 4200 3575
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF7E5B
+P 4100 3750
+AR Path="/5F75BE7E/5FDF7E5B" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDF7E5B" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 4100 3500 50  0001 C CNN
+F 1 "GND" H 4105 3577 50  0000 C CNN
+F 2 "" H 4100 3750 50  0001 C CNN
+F 3 "" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 3375
+Wire Wire Line
+	4100 3375 4100 3750
+Wire Wire Line
+	4300 3375 4300 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF7E64
+P 3500 3750
+AR Path="/5F75BE7E/5FDF7E64" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDF7E64" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 3500 3500 50  0001 C CNN
+F 1 "GND" H 3505 3577 50  0000 C CNN
+F 2 "" H 3500 3750 50  0001 C CNN
+F 3 "" H 3500 3750 50  0001 C CNN
+	1    3500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3375 3500 3750
+Wire Wire Line
+	3400 3375 3400 3575
+Text Label 4000 2225 3    47   ~ 0
+STEP1
+Text Label 4200 2225 3    47   ~ 0
+DIR1
+$Comp
+L Connector:Conn_01x12_Male J4
+U 1 1 5FDF9B5D
+P 4000 1825
+F 0 "J4" V 3835 1753 50  0000 C CNN
+F 1 "Conn_01x12_Male" V 3926 1753 50  0000 C CNN
+F 2 "TonsOfSteppers:Molex_12PIN" H 4000 1825 50  0001 C CNN
+F 3 "~" H 4000 1825 50  0001 C CNN
+	1    4000 1825
+	0    1    1    0   
+$EndComp
+NoConn ~ 4500 2025
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF9B64
+P 4300 2400
+AR Path="/5F75BE7E/5FDF9B64" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDF9B64" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 4300 2150 50  0001 C CNN
+F 1 "GND" H 4305 2227 50  0000 C CNN
+F 2 "" H 4300 2400 50  0001 C CNN
+F 3 "" H 4300 2400 50  0001 C CNN
+	1    4300 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 2225 3    47   Input ~ 0
+V_MOT
+$Comp
+L Connector:Conn_01x04_Female G5_Con?
+U 1 1 5FDF9B6B
+P 3800 2800
+AR Path="/5FDF9B6B" Ref="G5_Con?"  Part="1" 
+AR Path="/5F75CBF4/5FDF9B6B" Ref="G5_Con?"  Part="1" 
+AR Path="/5F736439/5FDF9B6B" Ref="G5_Con?"  Part="1" 
+AR Path="/5F739ED7/5FDF9B6B" Ref="G5_Con?"  Part="1" 
+AR Path="/5F75B229/5FDF9B6B" Ref="G5_Con4"  Part="1" 
+F 0 "G5_Con4" V 3775 2225 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 3738 2948 50  0001 L CNN
+F 2 "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" H 3800 2800 50  0001 C CNN
+F 3 "~" H 3800 2800 50  0001 C CNN
+	1    3800 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 2025 3600 2600
+Wire Wire Line
+	3700 2025 3700 2600
+Wire Wire Line
+	3800 2025 3800 2600
+Wire Wire Line
+	3900 2025 3900 2600
+Wire Wire Line
+	4000 2025 4000 2225
+Wire Wire Line
+	4200 2025 4200 2225
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF9B77
+P 4100 2400
+AR Path="/5F75BE7E/5FDF9B77" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDF9B77" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 4100 2150 50  0001 C CNN
+F 1 "GND" H 4105 2227 50  0000 C CNN
+F 2 "" H 4100 2400 50  0001 C CNN
+F 3 "" H 4100 2400 50  0001 C CNN
+	1    4100 2400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 2025
+Wire Wire Line
+	4100 2025 4100 2400
+Wire Wire Line
+	4300 2025 4300 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF9B80
+P 3500 2400
+AR Path="/5F75BE7E/5FDF9B80" Ref="#PWR?"  Part="1" 
+AR Path="/5F75B229/5FDF9B80" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 3500 2150 50  0001 C CNN
+F 1 "GND" H 3505 2227 50  0000 C CNN
+F 2 "" H 3500 2400 50  0001 C CNN
+F 3 "" H 3500 2400 50  0001 C CNN
+	1    3500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2025 3500 2400
+Wire Wire Line
+	3400 2025 3400 2225
+$EndSCHEMATC
