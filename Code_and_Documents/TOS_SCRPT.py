@@ -2,28 +2,28 @@ from time import sleep  #importing delay library
 import RPi.GPIO as gpio
 
 gpio.setmode(gpio.BCM)          #Setting GPIO Mode
-DIR1 = 3                        # Direction GPIO Pin
-STEP1 = 5                       # Step GPIO Pin
+DIR1 = 2                        # Direction GPIO Pin
+STEP1 = 3                       # Step GPIO Pin
 gpio.setup(DIR1, gpio.OUT)
 gpio.setup(STEP1, gpio.OUT)
-DIR2 =  7                        # Direction GPIO Pin
-STEP2 =  8                       # Step GPIO Pin
+DIR2 =  4                        # Direction GPIO Pin
+STEP2 =  14                       # Step GPIO Pin
 gpio.setup(DIR2, gpio.OUT)
 gpio.setup(STEP2, gpio.OUT)
-DIR3 =  10                       # Direction GPIO Pin
-STEP3 = 19                       # Step GPIO Pin
+DIR3 =  15                       # Direction GPIO Pin
+STEP3 = 10                       # Step GPIO Pin
 gpio.setup(DIR3, gpio.OUT)
 gpio.setup(STEP3, gpio.OUT)
-DIR4 = 21                        # Direction GPIO Pin
-STEP4 = 23                       # Step GPIO Pin
+DIR4 = 9                        # Direction GPIO Pin
+STEP4 = 11                       # Step GPIO Pin
 gpio.setup(DIR4, gpio.OUT)
 gpio.setup(STEP4, gpio.OUT)
-DIR5 =  29                       # Direction GPIO Pin
-STEP5 = 32                       # Step GPIO Pin
+DIR5 =  5                       # Direction GPIO Pin
+STEP5 = 12                      # Step GPIO Pin
 gpio.setup(DIR5, gpio.OUT)
 gpio.setup(STEP5, gpio.OUT)
-DIR6 =  31                        # Direction GPIO Pin
-STEP6 = 33                        # Step GPIO Pin
+DIR6 =  6                        # Direction GPIO Pin
+STEP6 = 13                       # Step GPIO Pin
 gpio.setup(DIR6, gpio.OUT)
 gpio.setup(STEP6, gpio.OUT)
 
@@ -225,11 +225,12 @@ def move(group, dir, degree):
 #START
 print("Starting Program")
 
+move(1, CW, 90)
 move(6, CW, 90)
-move90(6, CCW)
-move180(6, CW)
-
+move(5, CW, 90)
+move(4, CW, 90)
 print("********************")
 print("Finishing Program")
 
+gpio.cleanup()
 
