@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\kurdish_yoda\OneDrive\Documents\TOS\PCB\TonOfSteppers.sch</source>
+    <date>2/15/2021 6:48:30 PM</date>
+    <tool>Eeschema (5.99.0-7136-gf5e9a2a6da)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>Sensa Group</company>
+        <rev>2.0</rev>
+        <date/>
+        <source>TonOfSteppers.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/">
+      <title_block>
+        <title>Tons Of Steppers - Group 1</title>
+        <company>Sensa Group</company>
+        <rev>2.0</rev>
+        <date/>
+        <source>Group1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Group 2/" tstamps="/00000000-0000-0000-0000-00005f75be7e/">
+      <title_block>
+        <title>Tons Of Steppers - Group 2</title>
+        <company>Sensa Group</company>
+        <rev>2.0</rev>
+        <date/>
+        <source>Group2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Group 3_5_6/" tstamps="/00000000-0000-0000-0000-00005f75cbf4/">
+      <title_block>
+        <title>Tons Of Steppers - Group 3,5,6</title>
+        <company>Sensa Group</company>
+        <rev>2.0</rev>
+        <date/>
+        <source>Group3_5_6.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/">
+      <title_block>
+        <title>Tons Of Steppers - Group 4</title>
+        <company>Sensa Group</company>
+        <rev>2.0</rev>
+        <date/>
+        <source>Group4.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/">
+      <title_block>
+        <title>Tons Of Steppers - Power Circuit</title>
+        <company>Sensa Group</company>
+        <rev>2.0</rev>
+        <date>2020-09-28</date>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="LED-Device" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe057c2</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="LED-Device" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005f9973d2</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="LED-Device" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe0dd2d</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PI To Board</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_02x20_Odd_Even-Connector_Generic" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005db53e3a</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>PiGPIO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_02x20_Odd_Even-Connector_Generic" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005de4528d</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>SW</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe057ab</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>SW</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005f9973af</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>SW</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe0dd16</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe057a3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe057b3</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005f9973c7</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005f9973b7</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe0dd0e</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/TonOfSteppers.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe0dd1e</tstamp>
+    </comp>
+    <comp ref="G5_Con2">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005fdf6490</tstamp>
+    </comp>
+    <comp ref="G5_Con3">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005f90a95a</tstamp>
+    </comp>
+    <comp ref="G5_Con4">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005fdf9b6b</tstamp>
+    </comp>
+    <comp ref="G5_Con5">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005fdf7e4f</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x12_Male</value>
+      <footprint>TonsOfSteppers:Molex_12PIN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x12_Male-Connector" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005fdf6482</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x12_Male</value>
+      <footprint>TonsOfSteppers:Molex_12PIN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x12_Male-Connector" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005fdf9b5d</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x12_Male</value>
+      <footprint>TonsOfSteppers:Molex_12PIN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x12_Male-Connector" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005fdf7e41</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x12_Male</value>
+      <footprint>TonsOfSteppers:Molex_12PIN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x12_Male-Connector" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005f889fea</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NPN_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005fdab747</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NPN_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005fdb6d0d</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005f853c22</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value="Group 1"/>
+      <property name="Sheet file" value="Group1.sch"/>
+      <sheetpath names="/Group 1/" tstamps="/00000000-0000-0000-0000-00005f75b229/"/>
+      <tstamp>00000000-0000-0000-0000-00005f853c11</tstamp>
+    </comp>
+    <comp ref="G5_Con6">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 2"/>
+      <property name="Sheet file" value="Group2.sch"/>
+      <sheetpath names="/Group 2/" tstamps="/00000000-0000-0000-0000-00005f75be7e/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe04790</tstamp>
+    </comp>
+    <comp ref="G5_Con7">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 2"/>
+      <property name="Sheet file" value="Group2.sch"/>
+      <sheetpath names="/Group 2/" tstamps="/00000000-0000-0000-0000-00005f75be7e/"/>
+      <tstamp>00000000-0000-0000-0000-00005fdfd257</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x12_Male</value>
+      <footprint>TonsOfSteppers:Molex_12PIN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x12_Male-Connector" description=""/>
+      <property name="Sheet name" value="Group 2"/>
+      <property name="Sheet file" value="Group2.sch"/>
+      <sheetpath names="/Group 2/" tstamps="/00000000-0000-0000-0000-00005f75be7e/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe04782</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x12_Male</value>
+      <footprint>TonsOfSteppers:Molex_12PIN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x12_Male-Connector" description=""/>
+      <property name="Sheet name" value="Group 2"/>
+      <property name="Sheet file" value="Group2.sch"/>
+      <sheetpath names="/Group 2/" tstamps="/00000000-0000-0000-0000-00005f75be7e/"/>
+      <tstamp>00000000-0000-0000-0000-00005fdfd249</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NPN_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <property name="Sheet name" value="Group 2"/>
+      <property name="Sheet file" value="Group2.sch"/>
+      <sheetpath names="/Group 2/" tstamps="/00000000-0000-0000-0000-00005f75be7e/"/>
+      <tstamp>00000000-0000-0000-0000-00005fda2993</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NPN_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <property name="Sheet name" value="Group 2"/>
+      <property name="Sheet file" value="Group2.sch"/>
+      <sheetpath names="/Group 2/" tstamps="/00000000-0000-0000-0000-00005f75be7e/"/>
+      <tstamp>00000000-0000-0000-0000-00005fda630c</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value="Group 2"/>
+      <property name="Sheet file" value="Group2.sch"/>
+      <sheetpath names="/Group 2/" tstamps="/00000000-0000-0000-0000-00005f75be7e/"/>
+      <tstamp>00000000-0000-0000-0000-00005f8c28cb</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value="Group 2"/>
+      <property name="Sheet file" value="Group2.sch"/>
+      <sheetpath names="/Group 2/" tstamps="/00000000-0000-0000-0000-00005f75be7e/"/>
+      <tstamp>00000000-0000-0000-0000-00005f8c28ba</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>Pololu</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Pololu_Breakout_A4988-Driver_Motor" description=""/>
+      <property name="Sheet name" value="Group 3_5_6"/>
+      <property name="Sheet file" value="Group3_5_6.sch"/>
+      <sheetpath names="/Group 3_5_6/" tstamps="/00000000-0000-0000-0000-00005f75cbf4/"/>
+      <tstamp>00000000-0000-0000-0000-00005f9585d9</tstamp>
+    </comp>
+    <comp ref="A2">
+      <value>Pololu</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Pololu_Breakout_A4988-Driver_Motor" description=""/>
+      <property name="Sheet name" value="Group 3_5_6"/>
+      <property name="Sheet file" value="Group3_5_6.sch"/>
+      <sheetpath names="/Group 3_5_6/" tstamps="/00000000-0000-0000-0000-00005f75cbf4/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa3d7e4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100uf</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="CP1_Small-Device" description=""/>
+      <property name="Sheet name" value="Group 3_5_6"/>
+      <property name="Sheet file" value="Group3_5_6.sch"/>
+      <sheetpath names="/Group 3_5_6/" tstamps="/00000000-0000-0000-0000-00005f75cbf4/"/>
+      <tstamp>00000000-0000-0000-0000-00005f9585ed</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100uf</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="CP1_Small-Device" description=""/>
+      <property name="Sheet name" value="Group 3_5_6"/>
+      <property name="Sheet file" value="Group3_5_6.sch"/>
+      <sheetpath names="/Group 3_5_6/" tstamps="/00000000-0000-0000-0000-00005f75cbf4/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa3d7d4</tstamp>
+    </comp>
+    <comp ref="G5_Con1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 3_5_6"/>
+      <property name="Sheet file" value="Group3_5_6.sch"/>
+      <sheetpath names="/Group 3_5_6/" tstamps="/00000000-0000-0000-0000-00005f75cbf4/"/>
+      <tstamp>00000000-0000-0000-0000-00005f9585df</tstamp>
+    </comp>
+    <comp ref="G5_Con8">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 3_5_6"/>
+      <property name="Sheet file" value="Group3_5_6.sch"/>
+      <sheetpath names="/Group 3_5_6/" tstamps="/00000000-0000-0000-0000-00005f75cbf4/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe074f2</tstamp>
+    </comp>
+    <comp ref="G6_Con1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 3_5_6"/>
+      <property name="Sheet file" value="Group3_5_6.sch"/>
+      <sheetpath names="/Group 3_5_6/" tstamps="/00000000-0000-0000-0000-00005f75cbf4/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa3d7de</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x12_Male</value>
+      <footprint>TonsOfSteppers:Molex_12PIN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x12_Male-Connector" description=""/>
+      <property name="Sheet name" value="Group 3_5_6"/>
+      <property name="Sheet file" value="Group3_5_6.sch"/>
+      <sheetpath names="/Group 3_5_6/" tstamps="/00000000-0000-0000-0000-00005f75cbf4/"/>
+      <tstamp>00000000-0000-0000-0000-00005fe074e4</tstamp>
+    </comp>
+    <comp ref="A3">
+      <value>Pololu</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Pololu_Breakout_A4988-Driver_Motor" description=""/>
+      <property name="Sheet name" value="Group 4"/>
+      <property name="Sheet file" value="Group4.sch"/>
+      <sheetpath names="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/"/>
+      <tstamp>00000000-0000-0000-0000-00005f75415e</tstamp>
+    </comp>
+    <comp ref="A4">
+      <value>Pololu</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Pololu_Breakout_A4988-Driver_Motor" description=""/>
+      <property name="Sheet name" value="Group 4"/>
+      <property name="Sheet file" value="Group4.sch"/>
+      <sheetpath names="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa577ca</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100uf</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="CP1_Small-Device" description=""/>
+      <property name="Sheet name" value="Group 4"/>
+      <property name="Sheet file" value="Group4.sch"/>
+      <sheetpath names="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/"/>
+      <tstamp>00000000-0000-0000-0000-00005f75dcad</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100uf</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="CP1_Small-Device" description=""/>
+      <property name="Sheet name" value="Group 4"/>
+      <property name="Sheet file" value="Group4.sch"/>
+      <sheetpath names="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa577ba</tstamp>
+    </comp>
+    <comp ref="G3_Con1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 4"/>
+      <property name="Sheet file" value="Group4.sch"/>
+      <sheetpath names="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/"/>
+      <tstamp>00000000-0000-0000-0000-00005f754158</tstamp>
+    </comp>
+    <comp ref="G3_Con2">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <property name="Sheet name" value="Group 4"/>
+      <property name="Sheet file" value="Group4.sch"/>
+      <sheetpath names="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa577c4</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NPN_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <property name="Sheet name" value="Group 4"/>
+      <property name="Sheet file" value="Group4.sch"/>
+      <sheetpath names="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/"/>
+      <tstamp>00000000-0000-0000-0000-00005fd9abe3</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NPN_BCE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <property name="Sheet name" value="Group 4"/>
+      <property name="Sheet file" value="Group4.sch"/>
+      <sheetpath names="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/"/>
+      <tstamp>00000000-0000-0000-0000-00005fd976c3</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value="Group 4"/>
+      <property name="Sheet file" value="Group4.sch"/>
+      <sheetpath names="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa5acfe</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value="Group 4"/>
+      <property name="Sheet file" value="Group4.sch"/>
+      <sheetpath names="/Group 4/" tstamps="/00000000-0000-0000-0000-00005f75d8a5/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa5aced</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>15uf/50V</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x4.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="CP1_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fc65b6c</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>15uf/50V</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x4.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="CP1_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fc65b72</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>15uf/50V</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x4.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="CP1_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fc65b78</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.47uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="C_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fc65b7e</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="C_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fc6f92f</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>180uf/16V</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="CP1_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fc6f93d</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>180uf/16V</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="CP1_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fc6f943</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Zener_Small</value>
+      <footprint>Diode_SMD:D_SMB_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="D_Zener_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa59fec</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMC_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="D_Schottky_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fc6f95b</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2140394.pdf</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Fuse-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa59fda</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>FAN_2</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x03_Female-Connector" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005f8c9b4e</tstamp>
+    </comp>
+    <comp ref="J31">
+      <value>FAN_1</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x03_Female-Connector" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fabca74</tstamp>
+    </comp>
+    <comp ref="J33">
+      <value>V Motor In</value>
+      <footprint>Connector_Wago:Wago_734-132_1x02_P3.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa59f35</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>22uH</value>
+      <footprint>Inductor_SMD:L_Wuerth_HCI-1365</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="L_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fc6f91e</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>Q_PMOS_DGS</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="Q_PMOS_DGS-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa59fe2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="TonOfSteppers-rescue" part="R_Small-Device" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fa59f3b</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM2678</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-7_TabPin4</footprint>
+      <libsource lib="LM2678" part="LM2678" description=""/>
+      <property name="Sheet name" value="Power"/>
+      <property name="Sheet file" value="Power.sch"/>
+      <sheetpath names="/Power/" tstamps="/00000000-0000-0000-0000-00005fa56492/"/>
+      <tstamp>00000000-0000-0000-0000-00005fc5eded</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="LM2678" part="LM2678">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2678</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW_O" type="output"/>
+        <pin num="2" name="VIN" type="input"/>
+        <pin num="3" name="BOOST" type="output"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="6" name="FB" type="input"/>
+        <pin num="7" name="ON/OFF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="CP1_Small-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="Conn_01x02_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="Conn_01x02_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="Conn_01x03_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="Conn_01x04_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="Conn_01x12_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12_Male-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="Conn_02x20_Odd_Even-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="D_Schottky_Small-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="D_Zener_Small-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="Fuse-Device">
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="L_Small-Device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="Pololu_Breakout_A4988-Driver_Motor">
+      <footprints>
+        <fp>Pololu*Breakout*15.2x20.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Pololu_Breakout_A4988-Driver_Motor</field>
+        <field name="Footprint">Module:Pololu_Breakout-16_15.2x20.3mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="1B" type="output"/>
+        <pin num="4" name="1A" type="output"/>
+        <pin num="5" name="2A" type="output"/>
+        <pin num="6" name="2B" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VMOT" type="power_in"/>
+        <pin num="9" name="~ENABLE" type="input"/>
+        <pin num="10" name="MS1" type="input"/>
+        <pin num="11" name="MS2" type="input"/>
+        <pin num="12" name="MS3" type="input"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="~SLEEP" type="input"/>
+        <pin num="15" name="STEP" type="input"/>
+        <pin num="16" name="DIR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="Q_NPN_BCE-Device">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="Q_PMOS_DGS-Device">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_DGS-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TonOfSteppers-rescue" part="R_Small-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="LM2678">
+      <uri>C:/Users/kurdish_yoda/OneDrive/Documents/TOS/PCB/LM2678.lib</uri>
+    </library>
+    <library logical="TonOfSteppers-rescue">
+      <uri>C:\Users\kurdish_yoda\OneDrive\Documents\TOS\PCB/TonOfSteppers-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DIR1_EN">
+      <node ref="J1" pin="3" pinfunction="Pin_3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="2" name="/DIR2_EN">
+      <node ref="J1" pin="7" pinfunction="Pin_7"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="3" name="/DIR3">
+      <node ref="J1" pin="10" pinfunction="Pin_10"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4"/>
+    </net>
+    <net code="4" name="/DIR4_EN">
+      <node ref="J1" pin="21" pinfunction="Pin_21"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="5" name="/DIR5">
+      <node ref="A1" pin="16" pinfunction="DIR"/>
+      <node ref="J1" pin="29" pinfunction="Pin_29"/>
+    </net>
+    <net code="6" name="/DIR6">
+      <node ref="A2" pin="16" pinfunction="DIR"/>
+      <node ref="J1" pin="31" pinfunction="Pin_31"/>
+    </net>
+    <net code="7" name="/Group 1/DIR1">
+      <node ref="J3" pin="4" pinfunction="Pin_4"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4"/>
+      <node ref="Q1" pin="3" pinfunction="E"/>
+    </net>
+    <net code="8" name="/Group 1/STEP1">
+      <node ref="J3" pin="6" pinfunction="Pin_6"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6"/>
+      <node ref="Q2" pin="3" pinfunction="E"/>
+    </net>
+    <net code="9" name="/Group 2/DIR2">
+      <node ref="J7" pin="4" pinfunction="Pin_4"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4"/>
+      <node ref="Q3" pin="3" pinfunction="E"/>
+    </net>
+    <net code="10" name="/Group 2/STEP2">
+      <node ref="J7" pin="6" pinfunction="Pin_6"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6"/>
+      <node ref="Q4" pin="3" pinfunction="E"/>
+    </net>
+    <net code="11" name="/Group 4/DIR4">
+      <node ref="A3" pin="16" pinfunction="DIR"/>
+      <node ref="A4" pin="16" pinfunction="DIR"/>
+      <node ref="Q5" pin="3" pinfunction="E"/>
+    </net>
+    <net code="12" name="/Group 4/STEP4">
+      <node ref="A3" pin="15" pinfunction="STEP"/>
+      <node ref="A4" pin="15" pinfunction="STEP"/>
+      <node ref="Q6" pin="3" pinfunction="E"/>
+    </net>
+    <net code="13" name="/Power/V_MOT_MAIN">
+      <node ref="F1" pin="1"/>
+      <node ref="J33" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="14" name="/STEP1_EN">
+      <node ref="J1" pin="5" pinfunction="Pin_5"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="15" name="/STEP2_EN">
+      <node ref="J1" pin="8" pinfunction="Pin_8"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="16" name="/STEP3">
+      <node ref="J1" pin="19" pinfunction="Pin_19"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6"/>
+    </net>
+    <net code="17" name="/STEP4_EN">
+      <node ref="J1" pin="23" pinfunction="Pin_23"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="18" name="/STEP5">
+      <node ref="A1" pin="15" pinfunction="STEP"/>
+      <node ref="J1" pin="32" pinfunction="Pin_32"/>
+    </net>
+    <net code="19" name="/STEP6">
+      <node ref="A2" pin="15" pinfunction="STEP"/>
+      <node ref="J1" pin="33" pinfunction="Pin_33"/>
+    </net>
+    <net code="20" name="1">
+      <node ref="J1" pin="1" pinfunction="Pin_1"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="21" name="11">
+      <node ref="J1" pin="11" pinfunction="Pin_11"/>
+      <node ref="J2" pin="11" pinfunction="Pin_11"/>
+    </net>
+    <net code="22" name="12">
+      <node ref="J1" pin="12" pinfunction="Pin_12"/>
+      <node ref="J2" pin="12" pinfunction="Pin_12"/>
+    </net>
+    <net code="23" name="13">
+      <node ref="J1" pin="13" pinfunction="Pin_13"/>
+      <node ref="J2" pin="13" pinfunction="Pin_13"/>
+    </net>
+    <net code="24" name="14">
+      <node ref="J1" pin="14" pinfunction="Pin_14"/>
+      <node ref="J2" pin="14" pinfunction="Pin_14"/>
+    </net>
+    <net code="25" name="15">
+      <node ref="J1" pin="15" pinfunction="Pin_15"/>
+      <node ref="J2" pin="15" pinfunction="Pin_15"/>
+    </net>
+    <net code="26" name="16">
+      <node ref="J1" pin="16" pinfunction="Pin_16"/>
+      <node ref="J2" pin="16" pinfunction="Pin_16"/>
+    </net>
+    <net code="27" name="17">
+      <node ref="J1" pin="17" pinfunction="Pin_17"/>
+      <node ref="J2" pin="17" pinfunction="Pin_17"/>
+    </net>
+    <net code="28" name="18">
+      <node ref="J1" pin="18" pinfunction="Pin_18"/>
+      <node ref="J2" pin="18" pinfunction="Pin_18"/>
+    </net>
+    <net code="29" name="20">
+      <node ref="J1" pin="20" pinfunction="Pin_20"/>
+      <node ref="J2" pin="20" pinfunction="Pin_20"/>
+    </net>
+    <net code="30" name="22">
+      <node ref="J1" pin="22" pinfunction="Pin_22"/>
+      <node ref="J2" pin="22" pinfunction="Pin_22"/>
+    </net>
+    <net code="31" name="24">
+      <node ref="J1" pin="24" pinfunction="Pin_24"/>
+      <node ref="J2" pin="24" pinfunction="Pin_24"/>
+    </net>
+    <net code="32" name="25">
+      <node ref="J1" pin="25" pinfunction="Pin_25"/>
+      <node ref="J2" pin="25" pinfunction="Pin_25"/>
+    </net>
+    <net code="33" name="26">
+      <node ref="J1" pin="26" pinfunction="Pin_26"/>
+      <node ref="J2" pin="26" pinfunction="Pin_26"/>
+    </net>
+    <net code="34" name="27">
+      <node ref="J1" pin="27" pinfunction="Pin_27"/>
+      <node ref="J2" pin="27" pinfunction="Pin_27"/>
+    </net>
+    <net code="35" name="28">
+      <node ref="J1" pin="28" pinfunction="Pin_28"/>
+      <node ref="J2" pin="28" pinfunction="Pin_28"/>
+    </net>
+    <net code="36" name="30">
+      <node ref="J1" pin="30" pinfunction="Pin_30"/>
+      <node ref="J2" pin="30" pinfunction="Pin_30"/>
+    </net>
+    <net code="37" name="34">
+      <node ref="J1" pin="34" pinfunction="Pin_34"/>
+      <node ref="J2" pin="34" pinfunction="Pin_34"/>
+    </net>
+    <net code="38" name="35">
+      <node ref="J1" pin="35" pinfunction="Pin_35"/>
+      <node ref="J2" pin="35" pinfunction="Pin_35"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="39" name="36">
+      <node ref="J1" pin="36" pinfunction="Pin_36"/>
+      <node ref="J2" pin="36" pinfunction="Pin_36"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="40" name="37">
+      <node ref="J1" pin="37" pinfunction="Pin_37"/>
+      <node ref="J2" pin="37" pinfunction="Pin_37"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="41" name="38">
+      <node ref="J1" pin="38" pinfunction="Pin_38"/>
+      <node ref="J2" pin="38" pinfunction="Pin_38"/>
+    </net>
+    <net code="42" name="39">
+      <node ref="J1" pin="39" pinfunction="Pin_39"/>
+      <node ref="J2" pin="39" pinfunction="Pin_39"/>
+    </net>
+    <net code="43" name="4">
+      <node ref="J1" pin="4" pinfunction="Pin_4"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4"/>
+    </net>
+    <net code="44" name="40">
+      <node ref="J1" pin="40" pinfunction="Pin_40"/>
+      <node ref="J2" pin="40" pinfunction="Pin_40"/>
+    </net>
+    <net code="45" name="9">
+      <node ref="J1" pin="9" pinfunction="Pin_9"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9"/>
+    </net>
+    <net code="46" name="GND">
+      <node ref="A1" pin="1" pinfunction="GND"/>
+      <node ref="A1" pin="7" pinfunction="GND"/>
+      <node ref="A2" pin="1" pinfunction="GND"/>
+      <node ref="A2" pin="7" pinfunction="GND"/>
+      <node ref="A3" pin="1" pinfunction="GND"/>
+      <node ref="A3" pin="7" pinfunction="GND"/>
+      <node ref="A4" pin="1" pinfunction="GND"/>
+      <node ref="A4" pin="7" pinfunction="GND"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D2" pin="2" pinfunction="A"/>
+      <node ref="D3" pin="1" pinfunction="K"/>
+      <node ref="D4" pin="1" pinfunction="K"/>
+      <node ref="D5" pin="1" pinfunction="K"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6"/>
+      <node ref="J3" pin="11" pinfunction="Pin_11"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5"/>
+      <node ref="J31" pin="1" pinfunction="Pin_1"/>
+      <node ref="J33" pin="2" pinfunction="Pin_2"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5"/>
+      <node ref="J5" pin="11" pinfunction="Pin_11"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5"/>
+      <node ref="J6" pin="11" pinfunction="Pin_11"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5"/>
+      <node ref="J7" pin="11" pinfunction="Pin_11"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5"/>
+      <node ref="J8" pin="11" pinfunction="Pin_11"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5"/>
+      <node ref="J9" pin="11" pinfunction="Pin_11"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="4" pinfunction="GND"/>
+    </net>
+    <net code="47" name="Net-(A1-Pad13)">
+      <node ref="A1" pin="13" pinfunction="~RESET"/>
+      <node ref="A1" pin="14" pinfunction="~SLEEP"/>
+    </net>
+    <net code="48" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="1B"/>
+      <node ref="G5_Con1" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="49" name="Net-(A1-Pad4)">
+      <node ref="A1" pin="4" pinfunction="1A"/>
+      <node ref="G5_Con1" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="50" name="Net-(A1-Pad5)">
+      <node ref="A1" pin="5" pinfunction="2A"/>
+      <node ref="G5_Con1" pin="3" pinfunction="Pin_3"/>
+    </net>
+    <net code="51" name="Net-(A1-Pad6)">
+      <node ref="A1" pin="6" pinfunction="2B"/>
+      <node ref="G5_Con1" pin="4" pinfunction="Pin_4"/>
+    </net>
+    <net code="52" name="Net-(A1-Pad9)">
+      <node ref="A1" pin="9" pinfunction="~ENABLE"/>
+    </net>
+    <net code="53" name="Net-(A2-Pad13)">
+      <node ref="A2" pin="13" pinfunction="~RESET"/>
+      <node ref="A2" pin="14" pinfunction="~SLEEP"/>
+    </net>
+    <net code="54" name="Net-(A2-Pad3)">
+      <node ref="A2" pin="3" pinfunction="1B"/>
+      <node ref="G6_Con1" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="55" name="Net-(A2-Pad4)">
+      <node ref="A2" pin="4" pinfunction="1A"/>
+      <node ref="G6_Con1" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="56" name="Net-(A2-Pad5)">
+      <node ref="A2" pin="5" pinfunction="2A"/>
+      <node ref="G6_Con1" pin="3" pinfunction="Pin_3"/>
+    </net>
+    <net code="57" name="Net-(A2-Pad6)">
+      <node ref="A2" pin="6" pinfunction="2B"/>
+      <node ref="G6_Con1" pin="4" pinfunction="Pin_4"/>
+    </net>
+    <net code="58" name="Net-(A2-Pad9)">
+      <node ref="A2" pin="9" pinfunction="~ENABLE"/>
+    </net>
+    <net code="59" name="Net-(A3-Pad13)">
+      <node ref="A3" pin="13" pinfunction="~RESET"/>
+      <node ref="A3" pin="14" pinfunction="~SLEEP"/>
+    </net>
+    <net code="60" name="Net-(A3-Pad3)">
+      <node ref="A3" pin="3" pinfunction="1B"/>
+      <node ref="G3_Con1" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="61" name="Net-(A3-Pad4)">
+      <node ref="A3" pin="4" pinfunction="1A"/>
+      <node ref="G3_Con1" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="62" name="Net-(A3-Pad5)">
+      <node ref="A3" pin="5" pinfunction="2A"/>
+      <node ref="G3_Con1" pin="3" pinfunction="Pin_3"/>
+    </net>
+    <net code="63" name="Net-(A3-Pad6)">
+      <node ref="A3" pin="6" pinfunction="2B"/>
+      <node ref="G3_Con1" pin="4" pinfunction="Pin_4"/>
+    </net>
+    <net code="64" name="Net-(A3-Pad9)">
+      <node ref="A3" pin="9" pinfunction="~ENABLE"/>
+    </net>
+    <net code="65" name="Net-(A4-Pad13)">
+      <node ref="A4" pin="13" pinfunction="~RESET"/>
+      <node ref="A4" pin="14" pinfunction="~SLEEP"/>
+    </net>
+    <net code="66" name="Net-(A4-Pad3)">
+      <node ref="A4" pin="3" pinfunction="1B"/>
+      <node ref="G3_Con2" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="67" name="Net-(A4-Pad4)">
+      <node ref="A4" pin="4" pinfunction="1A"/>
+      <node ref="G3_Con2" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="68" name="Net-(A4-Pad5)">
+      <node ref="A4" pin="5" pinfunction="2A"/>
+      <node ref="G3_Con2" pin="3" pinfunction="Pin_3"/>
+    </net>
+    <net code="69" name="Net-(A4-Pad6)">
+      <node ref="A4" pin="6" pinfunction="2B"/>
+      <node ref="G3_Con2" pin="4" pinfunction="Pin_4"/>
+    </net>
+    <net code="70" name="Net-(A4-Pad9)">
+      <node ref="A4" pin="9" pinfunction="~ENABLE"/>
+    </net>
+    <net code="71" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="U1" pin="3" pinfunction="BOOST"/>
+    </net>
+    <net code="72" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2"/>
+      <node ref="D2" pin="1" pinfunction="K"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U1" pin="1" pinfunction="SW_O"/>
+    </net>
+    <net code="73" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A"/>
+      <node ref="Q7" pin="2" pinfunction="G"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="74" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="75" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="76" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="77" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="Q7" pin="1" pinfunction="D"/>
+    </net>
+    <net code="78" name="Net-(G5_Con2-Pad1)">
+      <node ref="G5_Con2" pin="1" pinfunction="Pin_1"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7"/>
+    </net>
+    <net code="79" name="Net-(G5_Con2-Pad2)">
+      <node ref="G5_Con2" pin="2" pinfunction="Pin_2"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8"/>
+    </net>
+    <net code="80" name="Net-(G5_Con2-Pad3)">
+      <node ref="G5_Con2" pin="3" pinfunction="Pin_3"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9"/>
+    </net>
+    <net code="81" name="Net-(G5_Con2-Pad4)">
+      <node ref="G5_Con2" pin="4" pinfunction="Pin_4"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10"/>
+    </net>
+    <net code="82" name="Net-(G5_Con3-Pad1)">
+      <node ref="G5_Con3" pin="1" pinfunction="Pin_1"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7"/>
+    </net>
+    <net code="83" name="Net-(G5_Con3-Pad2)">
+      <node ref="G5_Con3" pin="2" pinfunction="Pin_2"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8"/>
+    </net>
+    <net code="84" name="Net-(G5_Con3-Pad3)">
+      <node ref="G5_Con3" pin="3" pinfunction="Pin_3"/>
+      <node ref="J6" pin="9" pinfunction="Pin_9"/>
+    </net>
+    <net code="85" name="Net-(G5_Con3-Pad4)">
+      <node ref="G5_Con3" pin="4" pinfunction="Pin_4"/>
+      <node ref="J6" pin="10" pinfunction="Pin_10"/>
+    </net>
+    <net code="86" name="Net-(G5_Con4-Pad1)">
+      <node ref="G5_Con4" pin="1" pinfunction="Pin_1"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7"/>
+    </net>
+    <net code="87" name="Net-(G5_Con4-Pad2)">
+      <node ref="G5_Con4" pin="2" pinfunction="Pin_2"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8"/>
+    </net>
+    <net code="88" name="Net-(G5_Con4-Pad3)">
+      <node ref="G5_Con4" pin="3" pinfunction="Pin_3"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9"/>
+    </net>
+    <net code="89" name="Net-(G5_Con4-Pad4)">
+      <node ref="G5_Con4" pin="4" pinfunction="Pin_4"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10"/>
+    </net>
+    <net code="90" name="Net-(G5_Con5-Pad1)">
+      <node ref="G5_Con5" pin="1" pinfunction="Pin_1"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7"/>
+    </net>
+    <net code="91" name="Net-(G5_Con5-Pad2)">
+      <node ref="G5_Con5" pin="2" pinfunction="Pin_2"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8"/>
+    </net>
+    <net code="92" name="Net-(G5_Con5-Pad3)">
+      <node ref="G5_Con5" pin="3" pinfunction="Pin_3"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9"/>
+    </net>
+    <net code="93" name="Net-(G5_Con5-Pad4)">
+      <node ref="G5_Con5" pin="4" pinfunction="Pin_4"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10"/>
+    </net>
+    <net code="94" name="Net-(G5_Con6-Pad1)">
+      <node ref="G5_Con6" pin="1" pinfunction="Pin_1"/>
+      <node ref="J7" pin="7" pinfunction="Pin_7"/>
+    </net>
+    <net code="95" name="Net-(G5_Con6-Pad2)">
+      <node ref="G5_Con6" pin="2" pinfunction="Pin_2"/>
+      <node ref="J7" pin="8" pinfunction="Pin_8"/>
+    </net>
+    <net code="96" name="Net-(G5_Con6-Pad3)">
+      <node ref="G5_Con6" pin="3" pinfunction="Pin_3"/>
+      <node ref="J7" pin="9" pinfunction="Pin_9"/>
+    </net>
+    <net code="97" name="Net-(G5_Con6-Pad4)">
+      <node ref="G5_Con6" pin="4" pinfunction="Pin_4"/>
+      <node ref="J7" pin="10" pinfunction="Pin_10"/>
+    </net>
+    <net code="98" name="Net-(G5_Con7-Pad1)">
+      <node ref="G5_Con7" pin="1" pinfunction="Pin_1"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7"/>
+    </net>
+    <net code="99" name="Net-(G5_Con7-Pad2)">
+      <node ref="G5_Con7" pin="2" pinfunction="Pin_2"/>
+      <node ref="J8" pin="8" pinfunction="Pin_8"/>
+    </net>
+    <net code="100" name="Net-(G5_Con7-Pad3)">
+      <node ref="G5_Con7" pin="3" pinfunction="Pin_3"/>
+      <node ref="J8" pin="9" pinfunction="Pin_9"/>
+    </net>
+    <net code="101" name="Net-(G5_Con7-Pad4)">
+      <node ref="G5_Con7" pin="4" pinfunction="Pin_4"/>
+      <node ref="J8" pin="10" pinfunction="Pin_10"/>
+    </net>
+    <net code="102" name="Net-(G5_Con8-Pad1)">
+      <node ref="G5_Con8" pin="1" pinfunction="Pin_1"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7"/>
+    </net>
+    <net code="103" name="Net-(G5_Con8-Pad2)">
+      <node ref="G5_Con8" pin="2" pinfunction="Pin_2"/>
+      <node ref="J9" pin="8" pinfunction="Pin_8"/>
+    </net>
+    <net code="104" name="Net-(G5_Con8-Pad3)">
+      <node ref="G5_Con8" pin="3" pinfunction="Pin_3"/>
+      <node ref="J9" pin="9" pinfunction="Pin_9"/>
+    </net>
+    <net code="105" name="Net-(G5_Con8-Pad4)">
+      <node ref="G5_Con8" pin="4" pinfunction="Pin_4"/>
+      <node ref="J9" pin="10" pinfunction="Pin_10"/>
+    </net>
+    <net code="106" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="107" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1" pinfunction="Pin_1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="108" name="Net-(J12-Pad1)">
+      <node ref="J12" pin="1" pinfunction="Pin_1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="109" name="Net-(J13-Pad1)">
+      <node ref="J13" pin="1" pinfunction="Pin_1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="110" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10" pinfunction="Pin_10"/>
+    </net>
+    <net code="111" name="Net-(J2-Pad19)">
+      <node ref="J2" pin="19" pinfunction="Pin_19"/>
+    </net>
+    <net code="112" name="Net-(J2-Pad21)">
+      <node ref="J2" pin="21" pinfunction="Pin_21"/>
+    </net>
+    <net code="113" name="Net-(J2-Pad23)">
+      <node ref="J2" pin="23" pinfunction="Pin_23"/>
+    </net>
+    <net code="114" name="Net-(J2-Pad29)">
+      <node ref="J2" pin="29" pinfunction="Pin_29"/>
+    </net>
+    <net code="115" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3"/>
+    </net>
+    <net code="116" name="Net-(J2-Pad31)">
+      <node ref="J2" pin="31" pinfunction="Pin_31"/>
+    </net>
+    <net code="117" name="Net-(J2-Pad32)">
+      <node ref="J2" pin="32" pinfunction="Pin_32"/>
+    </net>
+    <net code="118" name="Net-(J2-Pad33)">
+      <node ref="J2" pin="33" pinfunction="Pin_33"/>
+    </net>
+    <net code="119" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5"/>
+    </net>
+    <net code="120" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="Pin_7"/>
+    </net>
+    <net code="121" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="Pin_8"/>
+    </net>
+    <net code="122" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="123" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="124" name="Net-(J31-Pad2)">
+      <node ref="J31" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="125" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="126" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="127" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="128" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="129" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="130" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="131" name="Net-(J7-Pad1)">
+      <node ref="J7" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="132" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="133" name="Net-(J8-Pad1)">
+      <node ref="J8" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="134" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="135" name="Net-(J9-Pad1)">
+      <node ref="J9" pin="1" pinfunction="Pin_1"/>
+    </net>
+    <net code="136" name="Net-(J9-Pad2)">
+      <node ref="J9" pin="2" pinfunction="Pin_2"/>
+    </net>
+    <net code="137" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="138" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="B"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="139" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="B"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="140" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="B"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="141" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pinfunction="B"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="142" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1" pinfunction="B"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="143" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="ON/OFF"/>
+    </net>
+    <net code="144" name="V_DAT">
+      <node ref="A1" pin="10" pinfunction="MS1"/>
+      <node ref="A1" pin="11" pinfunction="MS2"/>
+      <node ref="A1" pin="12" pinfunction="MS3"/>
+      <node ref="A1" pin="2" pinfunction="VDD"/>
+      <node ref="A2" pin="10" pinfunction="MS1"/>
+      <node ref="A2" pin="11" pinfunction="MS2"/>
+      <node ref="A2" pin="12" pinfunction="MS3"/>
+      <node ref="A2" pin="2" pinfunction="VDD"/>
+      <node ref="A3" pin="10" pinfunction="MS1"/>
+      <node ref="A3" pin="11" pinfunction="MS2"/>
+      <node ref="A3" pin="12" pinfunction="MS3"/>
+      <node ref="A3" pin="2" pinfunction="VDD"/>
+      <node ref="A4" pin="10" pinfunction="MS1"/>
+      <node ref="A4" pin="11" pinfunction="MS2"/>
+      <node ref="A4" pin="12" pinfunction="MS3"/>
+      <node ref="A4" pin="2" pinfunction="VDD"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="Q1" pin="2" pinfunction="C"/>
+      <node ref="Q2" pin="2" pinfunction="C"/>
+      <node ref="Q3" pin="2" pinfunction="C"/>
+      <node ref="Q4" pin="2" pinfunction="C"/>
+      <node ref="Q5" pin="2" pinfunction="C"/>
+      <node ref="Q6" pin="2" pinfunction="C"/>
+      <node ref="U1" pin="6" pinfunction="FB"/>
+    </net>
+    <net code="145" name="V_MOT">
+      <node ref="A1" pin="8" pinfunction="VMOT"/>
+      <node ref="A2" pin="8" pinfunction="VMOT"/>
+      <node ref="A3" pin="8" pinfunction="VMOT"/>
+      <node ref="A4" pin="8" pinfunction="VMOT"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D1" pin="1" pinfunction="K"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3"/>
+      <node ref="J3" pin="12" pinfunction="Pin_12"/>
+      <node ref="J31" pin="3" pinfunction="Pin_3"/>
+      <node ref="J4" pin="12" pinfunction="Pin_12"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12"/>
+      <node ref="J6" pin="12" pinfunction="Pin_12"/>
+      <node ref="J7" pin="12" pinfunction="Pin_12"/>
+      <node ref="J8" pin="12" pinfunction="Pin_12"/>
+      <node ref="J9" pin="12" pinfunction="Pin_12"/>
+      <node ref="Q7" pin="3" pinfunction="S"/>
+      <node ref="U1" pin="2" pinfunction="VIN"/>
+    </net>
+  </nets>
+</export>

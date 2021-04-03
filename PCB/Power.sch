@@ -130,76 +130,76 @@ Text Notes 4975 5850 0    98   ~ 0
 Switching Regulator
 Wire Notes Line
 	1975 5900 6500 5900
-Text Notes 5575 7425 0    98   ~ 0
+Text Notes 5500 6925 0    98   ~ 0
 Cooling Fans
 Wire Notes Line
-	1975 7475 6500 7475
+	1900 6975 6425 6975
 $Comp
 L Connector:Conn_01x03_Female J31
 U 1 1 5FABCA74
-P 3350 7175
-F 0 "J31" V 3425 7150 50  0000 L CNN
-F 1 "FAN_1" V 3300 6775 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 3350 7175 50  0001 C CNN
-F 3 "~" H 3350 7175 50  0001 C CNN
-	1    3350 7175
+P 3275 6675
+F 0 "J31" V 3350 6650 50  0000 L CNN
+F 1 "FAN_1" V 3225 6275 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 3275 6675 50  0001 C CNN
+F 3 "~" H 3275 6675 50  0001 C CNN
+	1    3275 6675
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3250 6975 3250 6900
+	3175 6475 3175 6400
 Wire Wire Line
-	3450 6975 3450 6900
+	3375 6475 3375 6400
 $Comp
 L Connector:Conn_01x03_Female J10
 U 1 1 5F8C9B4E
-P 4825 7150
-F 0 "J10" V 4900 7125 50  0000 L CNN
-F 1 "FAN_2" V 4775 6750 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 4825 7150 50  0001 C CNN
-F 3 "~" H 4825 7150 50  0001 C CNN
-	1    4825 7150
+P 4750 6650
+F 0 "J10" V 4825 6625 50  0000 L CNN
+F 1 "FAN_2" V 4700 6250 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 4750 6650 50  0001 C CNN
+F 3 "~" H 4750 6650 50  0001 C CNN
+	1    4750 6650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4725 6950 4725 6875
+	4650 6450 4650 6375
 Wire Wire Line
-	4925 6950 4925 6875
-Text GLabel 3250 6900 1    47   Input ~ 0
+	4850 6450 4850 6375
+Text GLabel 3175 6400 1    47   Input ~ 0
 V_MOT
-Text GLabel 4725 6875 1    47   Input ~ 0
+Text GLabel 4650 6375 1    47   Input ~ 0
 V_MOT
 $Comp
 L power:GND #e0102
 U 1 1 5F8E5014
-P 5025 6925
-F 0 "#e0102" H 5025 6675 50  0001 C CNN
-F 1 "GND" H 5113 6888 50  0001 L CNN
-F 2 "" H 5025 6925 50  0001 C CNN
-F 3 "" H 5025 6925 50  0001 C CNN
-	1    5025 6925
+P 4950 6425
+F 0 "#e0102" H 4950 6175 50  0001 C CNN
+F 1 "GND" H 5038 6388 50  0001 L CNN
+F 2 "" H 4950 6425 50  0001 C CNN
+F 3 "" H 4950 6425 50  0001 C CNN
+	1    4950 6425
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #e0103
 U 1 1 5F8E5F03
-P 3550 6950
-F 0 "#e0103" H 3550 6700 50  0001 C CNN
-F 1 "GND" H 3638 6913 50  0001 L CNN
-F 2 "" H 3550 6950 50  0001 C CNN
-F 3 "" H 3550 6950 50  0001 C CNN
-	1    3550 6950
+P 3475 6450
+F 0 "#e0103" H 3475 6200 50  0001 C CNN
+F 1 "GND" H 3563 6413 50  0001 L CNN
+F 2 "" H 3475 6450 50  0001 C CNN
+F 3 "" H 3475 6450 50  0001 C CNN
+	1    3475 6450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 6900 3550 6900
+	3375 6400 3475 6400
 Wire Wire Line
-	3550 6900 3550 6950
+	3475 6400 3475 6450
 Wire Wire Line
-	4925 6875 5025 6875
+	4850 6375 4950 6375
 Wire Wire Line
-	5025 6875 5025 6925
-NoConn ~ 4825 6950
-NoConn ~ 3350 6975
+	4950 6375 4950 6425
+NoConn ~ 4750 6450
+NoConn ~ 3275 6475
 $Comp
 L Device:CP1_Small C5
 U 1 1 5FC65B6C
@@ -448,4 +448,215 @@ F 3 "" H 3950 4950 98  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3650 5400
+$Comp
+L Connector:USB_A J?
+U 1 1 605A8658
+P 3100 7550
+AR Path="/605A8658" Ref="J?"  Part="1" 
+AR Path="/5FA56492/605A8658" Ref="J14"  Part="1" 
+F 0 "J14" H 3157 8017 50  0000 C CNN
+F 1 "USB_A" H 3157 7926 50  0000 C CNN
+F 2 "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal" H 3250 7500 50  0001 C CNN
+F 3 " ~" H 3250 7500 50  0001 C CNN
+	1    3100 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 605A865E
+P 3100 7975
+F 0 "#PWR0112" H 3100 7725 50  0001 C CNN
+F 1 "GND" H 3250 7925 50  0000 C CNN
+F 2 "" H 3100 7975 50  0001 C CNN
+F 3 "" H 3100 7975 50  0001 C CNN
+	1    3100 7975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 7975 3100 7950
+NoConn ~ 3000 7950
+$Comp
+L Regulator_Linear:uA7805 U?
+U 1 1 605A8666
+P 4975 7425
+AR Path="/605A8666" Ref="U?"  Part="1" 
+AR Path="/5FA56492/605A8666" Ref="U2"  Part="1" 
+F 0 "U2" H 4975 7667 50  0000 C CNN
+F 1 "uA7805" H 4975 7576 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 5000 7275 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/ua78.pdf" H 4975 7375 50  0001 C CNN
+	1    4975 7425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 605A866C
+P 4975 7750
+F 0 "#PWR0114" H 4975 7500 50  0001 C CNN
+F 1 "GND" H 5000 7600 50  0000 C CNN
+F 2 "" H 4975 7750 50  0001 C CNN
+F 3 "" H 4975 7750 50  0001 C CNN
+	1    4975 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4975 7750 4975 7725
+Text Notes 5500 8225 0    98   ~ 0
+Display power
+Wire Notes Line
+	1900 8275 6425 8275
+Text GLabel 4250 7425 0    47   Input ~ 0
+V_MOT
+$Comp
+L power:GND #e?
+U 1 1 605BEBD7
+P 4350 7775
+AR Path="/605BEBD7" Ref="#e?"  Part="1" 
+AR Path="/5F75CBF4/605BEBD7" Ref="#e?"  Part="1" 
+AR Path="/5F736439/605BEBD7" Ref="#e?"  Part="1" 
+AR Path="/5F739ED7/605BEBD7" Ref="#e?"  Part="1" 
+AR Path="/5F75D8A5/605BEBD7" Ref="#e?"  Part="1" 
+AR Path="/5FA56492/605BEBD7" Ref="#e0108"  Part="1" 
+F 0 "#e0108" H 4350 7525 50  0001 C CNN
+F 1 "GND" H 4438 7738 50  0001 L CNN
+F 2 "" H 4350 7775 50  0001 C CNN
+F 3 "" H 4350 7775 50  0001 C CNN
+	1    4350 7775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 605BEBDD
+P 4350 7650
+AR Path="/605BEBDD" Ref="C?"  Part="1" 
+AR Path="/5F75CBF4/605BEBDD" Ref="C?"  Part="1" 
+AR Path="/5F736439/605BEBDD" Ref="C?"  Part="1" 
+AR Path="/5F739ED7/605BEBDD" Ref="C?"  Part="1" 
+AR Path="/5F75D8A5/605BEBDD" Ref="C?"  Part="1" 
+AR Path="/5FA56492/605BEBDD" Ref="C12"  Part="1" 
+F 0 "C12" H 4150 7550 50  0000 L CNN
+F 1 "100uf" H 4000 7475 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4350 7650 50  0001 C CNN
+F 3 "~" H 4350 7650 50  0001 C CNN
+	1    4350 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 7750 4350 7775
+$Comp
+L Device:C_Small C13
+U 1 1 605C0655
+P 4550 7650
+F 0 "C13" V 4600 7500 50  0000 L CNN
+F 1 "0.01uf" H 4275 7725 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 7650 50  0001 C CNN
+F 3 "~" H 4550 7650 50  0001 C CNN
+	1    4550 7650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 605C1C7B
+P 5400 7625
+F 0 "C14" H 5400 7500 50  0000 L CNN
+F 1 "0.01uf" H 5450 7700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5400 7625 50  0001 C CNN
+F 3 "~" H 5400 7625 50  0001 C CNN
+	1    5400 7625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 7550 4350 7425
+Wire Wire Line
+	4350 7425 4250 7425
+Wire Wire Line
+	4350 7425 4550 7425
+Connection ~ 4350 7425
+Wire Wire Line
+	4550 7425 4550 7550
+Connection ~ 4550 7425
+Wire Wire Line
+	4550 7425 4675 7425
+$Comp
+L power:GND #PWR0115
+U 1 1 605C7552
+P 4550 7775
+F 0 "#PWR0115" H 4550 7525 50  0001 C CNN
+F 1 "GND" H 4550 7625 50  0000 C CNN
+F 2 "" H 4550 7775 50  0001 C CNN
+F 3 "" H 4550 7775 50  0001 C CNN
+	1    4550 7775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 7775 4550 7750
+$Comp
+L power:GND #PWR0130
+U 1 1 605CCCD1
+P 5400 7750
+F 0 "#PWR0130" H 5400 7500 50  0001 C CNN
+F 1 "GND" H 5400 7600 50  0000 C CNN
+F 2 "" H 5400 7750 50  0001 C CNN
+F 3 "" H 5400 7750 50  0001 C CNN
+	1    5400 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #e?
+U 1 1 605D01F5
+P 5600 7750
+AR Path="/605D01F5" Ref="#e?"  Part="1" 
+AR Path="/5F75CBF4/605D01F5" Ref="#e?"  Part="1" 
+AR Path="/5F736439/605D01F5" Ref="#e?"  Part="1" 
+AR Path="/5F739ED7/605D01F5" Ref="#e?"  Part="1" 
+AR Path="/5F75D8A5/605D01F5" Ref="#e?"  Part="1" 
+AR Path="/5FA56492/605D01F5" Ref="#e0109"  Part="1" 
+F 0 "#e0109" H 5600 7500 50  0001 C CNN
+F 1 "GND" H 5688 7713 50  0001 L CNN
+F 2 "" H 5600 7750 50  0001 C CNN
+F 3 "" H 5600 7750 50  0001 C CNN
+	1    5600 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 605D01FB
+P 5600 7625
+AR Path="/605D01FB" Ref="C?"  Part="1" 
+AR Path="/5F75CBF4/605D01FB" Ref="C?"  Part="1" 
+AR Path="/5F736439/605D01FB" Ref="C?"  Part="1" 
+AR Path="/5F739ED7/605D01FB" Ref="C?"  Part="1" 
+AR Path="/5F75D8A5/605D01FB" Ref="C?"  Part="1" 
+AR Path="/5FA56492/605D01FB" Ref="C15"  Part="1" 
+F 0 "C15" H 5500 7750 50  0000 L CNN
+F 1 "100uf" H 5600 7500 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5600 7625 50  0001 C CNN
+F 3 "~" H 5600 7625 50  0001 C CNN
+	1    5600 7625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 7725 5600 7750
+Wire Wire Line
+	5400 7750 5400 7725
+Wire Wire Line
+	5400 7525 5400 7425
+Wire Wire Line
+	5400 7425 5275 7425
+Wire Wire Line
+	5600 7525 5600 7425
+Wire Wire Line
+	5600 7425 5400 7425
+Connection ~ 5400 7425
+Text GLabel 5625 7425 2    47   Input ~ 0
+V_BUS
+Wire Wire Line
+	5625 7425 5600 7425
+Connection ~ 5600 7425
+Text GLabel 3425 7350 2    47   Input ~ 0
+V_BUS
+Wire Wire Line
+	3425 7350 3400 7350
+NoConn ~ 3400 7650
+NoConn ~ 3400 7550
 $EndSCHEMATC
