@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC1413B
+D High Voltage, High Current Darlington Transistor Arrays, TTL/CMOS-compatible, SOIC16/DIP16
+K darlington transistor array
+F http://www.onsemi.com/pub_link/Collateral/MC1413-D.PDF
+$ENDCMP
+#
+$CMP ULN2066B
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/DIP16
+K darlington transistor array
+F http://www.onsemi.com/pub_link/Collateral/MC1413-D.PDF
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name power_user)(type Legacy)(uri "/home/cristi/Bitbucket/upwork/Python, Raspberry Pi and Relay Work - John Barlow/Part4-final-board/Hc595_Solenoid_Driver/power_user.lib")(options "")(descr ""))
+  (lib (name User_Library)(type Legacy)(uri ${KIPRJMOD}/User_Library.lib)(options "")(descr ""))
+  (lib (name Hc595_Solenoid_Driver-rescue)(type Legacy)(uri ${KIPRJMOD}/Hc595_Solenoid_Driver-rescue.lib)(options "")(descr ""))
+)

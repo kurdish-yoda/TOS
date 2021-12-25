@@ -1,0 +1,34 @@
+Run ERC on schematic (correct errors if any)    OK
+Run DRC on PCB (correct errors if any)          OK
+silkscreen  OK
+fooprints
+- power supply  OK
+- uln2066B      OK
+- 12V capacitor OK
+RS485 input to connector    OK
+Connector to RS485 output   OK
+HC595
+- CLK               OK
+- LAT               OK
+- OUT_EN            OK
+- MR                OK
+- interconnections  OK
+- outputs           OK
+TLP291
+- input             OK
+- output            OK
+ULN2066
+- input             OK
+- output            OK
+3V3 circuit         OK
+GND plane           OK
+GND vias            OK
+12V1 circuit        OK
+GNDPWR1             OK
+12V2 circuit        OK
+GNDPWR2             OK
+Check 120 ohm resistors             OK
+check 12V circuit capacitor types   OK
+Renumber solenoids connector names to 1 to 64   OK  
+add additional vias OK
+check clearance between high voltage and low voltage    OK
